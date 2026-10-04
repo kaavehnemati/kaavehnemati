@@ -61,39 +61,11 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 | **Development Tools** | Git · GitHub · GitLab · Composer · Postman · Hoppscotch · DirectAdmin |
 | **AI-Assisted Engineering** | Claude Code · OpenAI Codex · AI Coding Agents · Agentic Development Workflows · AI-assisted Debugging, Refactoring, Code Review & Documentation · Technical Analysis & Development Automation |
 
-## Journey & featured work
+## Journey
 
-<table>
-<tr>
-<td width="55%" valign="top">
-
-🔹 **Nov 2025 – now** · **PAYSTAR**<br />
-Software Engineer: Laravel & FastAPI services, deployments, production ops
-
-🔹 **Oct 2025 – now** · **Avina IT Solutions**<br />
-Software Engineer: features, integrations, refactoring, releases
-
-🔹 **Feb – Oct 2025** · **Avina IT Solutions**<br />
-Back-end Developer: REST APIs, auth, query optimization
-
-🔹 **Apr 2024 – Jan 2025** · **Pardis Technology Park**<br />
-QA Engineer: Cypress automation, API & regression testing
-
-🔹 **Feb – Apr 2024** · **Pardis Technology Park**<br />
-Software Engineer Intern: PHP, Laravel, MySQL
-
-</td>
-<td width="45%" valign="top">
-
-<a href="https://github.com/kaavehnemati/InvoiceFlow">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kaavehnemati&repo=InvoiceFlow&bg_color=093060&title_color=FFFFFF&text_color=E4E8F1&icon_color=C58B67&hide_border=true&border_radius=10" alt="InvoiceFlow" />
-</a>
-
-FastAPI + PostgreSQL pipeline that ingests, validates and tracks invoices, deployed to AWS Lightsail.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/journey.svg" alt="Career timeline. PAYSTAR, Software Engineer, Nov 2025 to present. Avina IT Solutions, Software Engineer, Oct 2025 to present. Avina IT Solutions, Back-end Developer, Feb 2025 to Oct 2025. Pardis Technology Park, Quality Assurance Engineer, Apr 2024 to Jan 2025. Pardis Technology Park, Software Engineer Intern, Feb 2024 to Apr 2024." />
+</p>
 
 ## Activity
 

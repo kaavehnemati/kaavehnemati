@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 715" width="900" height="715" role="img" aria-label="Career timeline">
+  <style>
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .company { font-size: 17px; font-weight: 700; fill: #FFFFFF; letter-spacing: .6px; }
+    .date    { font-size: 14px; font-weight: 600; fill: #A9B6D3; }
+    .role    { font-size: 16px; font-weight: 600; fill: #E2B394; }
+    .meta    { font-size: 13px; font-weight: 400; fill: #A9B6D3; }
+    .desc    { font-size: 14px; fill: #DCE3F0; }
+    .entry   { animation: fade .8s ease-out both; }
+    .e2 { animation-delay: .15s; } .e3 { animation-delay: .3s; }
+    .e4 { animation-delay: .45s; } .e5 { animation-delay: .6s; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .entry { animation: none; } }
+  </style>
+
+  <rect width="900" height="715" rx="12" fill="#093060"/>
+  <line x1="60" y1="46" x2="60" y2="606" stroke="#22468A" stroke-width="3"/>
+
+  <g class="entry e1">
+    <circle cx="60" cy="46" r="9" fill="#C58B67" stroke="#093060" stroke-width="3"/>
+    <text class="company" x="90" y="52">PAYSTAR</text>
+    <text class="date" x="868" y="52" text-anchor="end">Nov 2025 – Present</text>
+    <text class="role" x="90" y="76">Software Engineer<tspan class="meta" dx="12">Full-time · On-site · Rasht, Iran</tspan></text>
+    <text class="desc" x="90" y="100">Designing, developing and maintaining production backend services with PHP/Laravel and</text>
+    <text class="desc" x="90" y="121">Python/FastAPI on MySQL and PostgreSQL. Building RESTful APIs and service integrations, and</text>
+    <text class="desc" x="90" y="142">owning deployment, server configuration, monitoring and production troubleshooting.</text>
+  </g>
+
+  <g class="entry e2">
+    <circle cx="60" cy="186" r="9" fill="#C58B67" stroke="#093060" stroke-width="3"/>
+    <text class="company" x="90" y="192">AVINA IT SOLUTIONS</text>
+    <text class="date" x="868" y="192" text-anchor="end">Oct 2025 – Present</text>
+    <text class="role" x="90" y="216">Software Engineer<tspan class="meta" dx="12">Part-time · Remote · Tehran, Iran</tspan></text>
+    <text class="desc" x="90" y="240">Developing backend services across PHP/Laravel and Python/FastAPI projects. Designing RESTful</text>
+    <text class="desc" x="90" y="261">APIs, shipping features and integrations, refactoring the codebase, and handling deployments,</text>
+    <text class="desc" x="90" y="282">release management and production maintenance.</text>
+  </g>
+
+  <g class="entry e3">
+    <circle cx="60" cy="326" r="8" fill="#093060" stroke="#C58B67" stroke-width="3"/>
+    <text class="company" x="90" y="332">AVINA IT SOLUTIONS</text>
+    <text class="date" x="868" y="332" text-anchor="end">Feb 2025 – Oct 2025</text>
+    <text class="role" x="90" y="356">Back-end Developer<tspan class="meta" dx="12">Full-time · Remote · Tehran, Iran</tspan></text>
+    <text class="desc" x="90" y="380">Built and maintained Laravel/MySQL backends: RESTful APIs, authentication and authorization,</text>
+    <text class="desc" x="90" y="401">business logic and third-party integrations. Worked on query optimization, debugging,</text>
+    <text class="desc" x="90" y="422">refactoring and deployment through Git-based workflows and code reviews.</text>
+  </g>
+
+  <g class="entry e4">
+    <circle cx="60" cy="466" r="8" fill="#093060" stroke="#C58B67" stroke-width="3"/>
+    <text class="company" x="90" y="472">PARDIS TECHNOLOGY PARK</text>
+    <text class="date" x="868" y="472" text-anchor="end">Apr 2024 – Jan 2025</text>
+    <text class="role" x="90" y="496">Quality Assurance Engineer<tspan class="meta" dx="12">Full-time · Remote · Tehran, Iran</tspan></text>
+    <text class="desc" x="90" y="520">Functional, API, regression and automated testing of web applications. Built and maintained</text>
+    <text class="desc" x="90" y="541">Cypress test suites, tested REST APIs and wrote reproducible bug reports, validating fixes</text>
+    <text class="desc" x="90" y="562">together with developers.</text>
+  </g>
+
+  <g class="entry e5">
+    <circle cx="60" cy="606" r="8" fill="#093060" stroke="#C58B67" stroke-width="3"/>
+    <text class="company" x="90" y="612">PARDIS TECHNOLOGY PARK</text>
+    <text class="date" x="868" y="612" text-anchor="end">Feb 2024 – Apr 2024</text>
+    <text class="role" x="90" y="636">Software Engineer Intern<tspan class="meta" dx="12">Full-time · Remote · Tehran, Iran</tspan></text>
+    <text class="desc" x="90" y="660">Backend development with PHP, Laravel and MySQL: REST API implementation, database operations,</text>
+    <text class="desc" x="90" y="681">application logic, authentication and bug fixing within Git-based team workflows.</text>
+  </g>
+</svg>
