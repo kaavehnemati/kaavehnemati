@@ -20,56 +20,9 @@
 
 ## Skills
 
-<table>
-  <tr>
-    <td width="24%"><b>Backend</b></td>
-    <td>
-      <b>PHP · Laravel · Python · FastAPI</b><br />
-      RESTful APIs · API Design · Service Integration · Authentication &amp; Authorization<br />
-      <b>Laravel:</b> Queues &amp; Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport
-    </td>
-  </tr>
-  <tr>
-    <td><b>Databases &amp; Data</b></td>
-    <td>
-      <b>PostgreSQL · MySQL · Redis</b><br />
-      Database Design · Data Modeling · Query Optimization
-    </td>
-  </tr>
-  <tr>
-    <td><b>Production &amp; Deployment</b></td>
-    <td>
-      <b>Linux · Ubuntu · AWS · Docker · GitHub Actions · Terraform</b><br />
-      VPS · Server Configuration · Application Deployment · Production Environments · Release Management · Monitoring · Troubleshooting
-    </td>
-  </tr>
-  <tr>
-    <td><b>Testing &amp; Quality</b></td>
-    <td>
-      <b>Cypress · Postman · Hoppscotch</b><br />
-      Automated · API · Functional · Regression Testing · Bug Analysis &amp; Reporting
-    </td>
-  </tr>
-  <tr>
-    <td><b>Development Tools</b></td>
-    <td>
-      <b>Git · GitHub · GitLab · Composer · DirectAdmin</b>
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI-Assisted Engineering</b></td>
-    <td>
-      <b>Claude Code · OpenAI Codex</b><br />
-      AI Coding Agents · Agentic Workflows · AI-assisted Debugging, Refactoring, Code Review &amp; Documentation · Technical Analysis · Development Automation
-    </td>
-  </tr>
-  <tr>
-    <td><b>Engineering Practices</b></td>
-    <td>
-      Software Design · OOP · SOLID · MVC · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/skills.svg" alt="Skills. Backend: PHP, Laravel, Python, FastAPI, RESTful APIs, API Design, Service Integration, Authentication &amp; Authorization. Laravel Ecosystem: Queues &amp; Jobs, Middleware, Validation, Eloquent ORM, Sanctum, Passport. Databases &amp; Data: PostgreSQL, MySQL, Redis, Database Design, Data Modeling, Query Optimization. Production &amp; Deployment: Linux, Ubuntu, AWS, Docker, GitHub Actions, Terraform, VPS, Server Configuration, Application Deployment, Production Environments, Release Management, Monitoring, Troubleshooting. Testing &amp; Quality: Cypress, Postman, Hoppscotch, Automated, API, Functional and Regression Testing, Bug Analysis &amp; Reporting. Development Tools: Git, GitHub, GitLab, Composer, DirectAdmin. AI-Assisted Engineering: Claude Code, OpenAI Codex, AI Coding Agents, Agentic Workflows, AI-assisted Debugging, Refactoring, Code Review &amp; Documentation, Technical Analysis, Development Automation. Engineering Practices: Software Design, OOP, SOLID, MVC, Clean Code, Refactoring, Debugging, Code Review, Technical Problem Solving." />
+</p>
 
 ## Journey
 

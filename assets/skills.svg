@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 645" width="900" height="645" role="img" aria-label="Skills">
+  <style>
+    text   { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .label { font-size: 11px; font-weight: 700; fill: #B07152; letter-spacing: 1.5px; }
+    .tool  { font-size: 14px; font-weight: 700; fill: #093060; }
+    .con   { font-size: 13.5px; fill: #3D4A5C; }
+    .pn    { animation: fade .8s ease-out both; }
+    .n2 { animation-delay: .12s; } .n3 { animation-delay: .24s; } .n4 { animation-delay: .36s; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .pn { animation: none; } }
+  </style>
+  <rect width="900" height="645" rx="12" fill="#EEF2F3"/>
+  <g class="pn n1">
+  <rect x="36" y="36" width="408" height="119" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="56" y="64">BACKEND</text>
+  <text class="tool" x="56" y="88">PHP · Laravel · Python · FastAPI</text>
+  <text class="con" x="56" y="113">RESTful APIs · API Design · Service Integration</text>
+  <text class="con" x="56" y="133">Authentication &amp; Authorization</text>
+  </g>
+  <g class="pn n1">
+  <rect x="456" y="36" width="408" height="119" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="476" y="64">LARAVEL ECOSYSTEM</text>
+  <text class="tool" x="476" y="88">Queues &amp; Jobs · Middleware · Validation</text>
+  <text class="tool" x="476" y="109">Eloquent ORM · Sanctum · Passport</text>
+  </g>
+  <g class="pn n2">
+  <rect x="36" y="167" width="408" height="160" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="56" y="195">DATABASES &amp; DATA</text>
+  <text class="tool" x="56" y="219">PostgreSQL · MySQL · Redis</text>
+  <text class="con" x="56" y="244">Database Design · Data Modeling · Query Optimization</text>
+  </g>
+  <g class="pn n2">
+  <rect x="456" y="167" width="408" height="160" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="476" y="195">PRODUCTION &amp; DEPLOYMENT</text>
+  <text class="tool" x="476" y="219">Linux · Ubuntu · AWS · Docker · GitHub Actions</text>
+  <text class="tool" x="476" y="240">Terraform</text>
+  <text class="con" x="476" y="265">VPS · Server Configuration · Application Deployment</text>
+  <text class="con" x="476" y="285">Production Environments · Release Management</text>
+  <text class="con" x="476" y="305">Monitoring · Troubleshooting</text>
+  </g>
+  <g class="pn n3">
+  <rect x="36" y="339" width="408" height="119" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="56" y="367">TESTING &amp; QUALITY</text>
+  <text class="tool" x="56" y="391">Cypress · Postman · Hoppscotch</text>
+  <text class="con" x="56" y="416">Automated · API · Functional · Regression Testing</text>
+  <text class="con" x="56" y="436">Bug Analysis &amp; Reporting</text>
+  </g>
+  <g class="pn n3">
+  <rect x="456" y="339" width="408" height="119" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="476" y="367">DEVELOPMENT TOOLS</text>
+  <text class="tool" x="476" y="391">Git · GitHub · GitLab · Composer · DirectAdmin</text>
+  </g>
+  <g class="pn n4">
+  <rect x="36" y="470" width="408" height="139" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="56" y="498">AI-ASSISTED ENGINEERING</text>
+  <text class="tool" x="56" y="522">Claude Code · OpenAI Codex</text>
+  <text class="con" x="56" y="547">AI Coding Agents · Agentic Workflows · AI-assisted</text>
+  <text class="con" x="56" y="567">Debugging, Refactoring, Code Review &amp; Documentation</text>
+  <text class="con" x="56" y="587">Technical Analysis · Development Automation</text>
+  </g>
+  <g class="pn n4">
+  <rect x="456" y="470" width="408" height="139" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
+  <text class="label" x="476" y="498">ENGINEERING PRACTICES</text>
+  <text class="con" x="476" y="522">Software Design · OOP · SOLID · MVC · Clean Code</text>
+  <text class="con" x="476" y="542">Refactoring · Debugging · Code Review</text>
+  <text class="con" x="476" y="562">Technical Problem Solving</text>
+  </g>
+</svg>
