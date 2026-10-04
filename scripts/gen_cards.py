@@ -1,29 +1,26 @@
-"""Generate the profile README cards in light and dark variants.
+"""Generate the profile README cards in one "glass navy" style.
 
-Writes assets/<card>-light.svg and assets/<card>-dark.svg for:
-about, skills, journey, how-i-work.
+Writes assets/<card>-glass.svg for: about, skills, journey, how-i-work.
+The cards carry their own translucent navy surface, so the same image reads
+well on GitHub's light and dark pages; no theme switching is needed.
 
 Usage: python3 scripts/gen_cards.py
-After changing a card, bump the file names (e.g. -v2) in the README too:
+After changing a card, bump the file names (e.g. -glass-v2) in the README too:
 raw.githubusercontent.com caches images for a while.
 """
 from pathlib import Path
 from xml.sax.saxutils import escape
 
-THEMES = {
-    "light": {
-        "bg": "#EEF2F3", "panel": "#FFFFFF", "border": "#D8E0EA", "rule": "#D3DCE6",
-        "title": "#093060", "text": "#3D4A5C", "muted": "#5A6B85", "sep": "#8A97AB",
-        "accent": "#B07152", "chip_bg": "#E3EAF5", "chip_fg": "#093060",
-        "rail": "#22468A", "node": "#093060", "tag_bg": "#B07152",
-    },
-    "dark": {
-        "bg": "#131C2B", "panel": "#1A2638", "border": "#2B3A52", "rule": "#2B3A52",
-        "title": "#E6EDF3", "text": "#B9C4D3", "muted": "#8E9BB0", "sep": "#5E6E87",
-        "accent": "#D9A27E", "chip_bg": "#22344F", "chip_fg": "#D6E2F3",
-        "rail": "#3D63A8", "node": "#22468A", "tag_bg": "#B07152",
-    },
+# A token is a hex color, or (hex, opacity) for translucent layers.
+GLASS = {
+    "grad_from": "#093060", "grad_to": "#22468A", "surface_opacity": 0.92,
+    "title": "#FFFFFF", "text": "#D5DEEA", "muted": "#A9B6D3", "sep": "#7F93B5",
+    "accent": "#E2B394", "chip_fg": "#FFFFFF", "node": "#FFFFFF", "node_fg": "#093060",
+    "tag_bg": "#B07152",
+    "panel": ("#FFFFFF", 0.07), "border": ("#FFFFFF", 0.14), "rule": ("#FFFFFF", 0.14),
+    "chip_bg": ("#FFFFFF", 0.14), "rail": ("#FFFFFF", 0.28),
 }
+T = GLASS
 
 FONT = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
 FADE = """.fade { animation: fade .8s ease-out both; }
@@ -32,11 +29,36 @@ FADE = """.fade { animation: fade .8s ease-out both; }
     @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }"""
 
 
-def svg(w, h, label, css, body, t):
+def fill(key):
+    tok = T[key]
+    if isinstance(tok, tuple):
+        return f'fill="{tok[0]}" fill-opacity="{tok[1]}"'
+    return f'fill="{tok}"'
+
+
+def stroke(key, width=1):
+    tok = T[key]
+    if isinstance(tok, tuple):
+        return f'stroke="{tok[0]}" stroke-opacity="{tok[1]}" stroke-width="{width}"'
+    return f'stroke="{tok}" stroke-width="{width}"'
+
+
+def svg(w, h, label, css, body):
+    defs = (f'<defs>'
+            f'<linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">'
+            f'<stop offset="0" stop-color="{T["grad_from"]}"/><stop offset="1" stop-color="{T["grad_to"]}"/>'
+            f'</linearGradient>'
+            f'<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">'
+            f'<stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/>'
+            f'<stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>'
+            f'</linearGradient></defs>')
     return "\n".join([
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" aria-label="{label}">',
         f"  <style>\n    text {{ font-family: {FONT}; }}\n    {css}\n    {FADE}\n  </style>",
-        f'  <rect width="{w}" height="{h}" rx="12" fill="{t["bg"]}"/>',
+        f"  {defs}",
+        f'  <rect width="{w}" height="{h}" rx="12" fill="url(#surface)" fill-opacity="{T["surface_opacity"]}"/>',
+        f'  <rect width="{w}" height="{h}" rx="12" fill="url(#sheen)"/>',
+        f'  <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity=".18"/>',
         *("  " + ln for ln in body),
         "</svg>",
     ]) + "\n"
@@ -46,20 +68,20 @@ def text_w(s, px):
     return len(s) * px * 0.6
 
 
-def pill(x, y, w, h, fill, label, cls):
-    return (f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="{h}" rx="{h / 2}" fill="{fill}"/>'
+def pill(x, y, w, h, paint, label, cls):
+    return (f'<rect x="{x:.1f}" y="{y}" width="{w:.1f}" height="{h}" rx="{h / 2}" {paint}/>'
             f'<text class="{cls}" x="{x + w / 2:.1f}" y="{y + h / 2 + 4.2:.1f}" text-anchor="middle">{escape(label)}</text>')
 
 
 # ---------------------------------------------------------------- about
-def about(t):
-    css = f""".sum {{ font-size: 15px; fill: {t["text"]}; }}
-    .b {{ font-weight: 700; fill: {t["title"]}; }}
-    .label {{ font-size: 11px; font-weight: 700; fill: {t["accent"]}; letter-spacing: 1.5px; }}
-    .name {{ font-size: 15px; font-weight: 700; fill: {t["title"]}; letter-spacing: .4px; }}
-    .meta {{ font-size: 13px; fill: {t["muted"]}; }}
-    .item {{ font-size: 14px; fill: {t["text"]}; }}"""
-    panel = f'rx="10" fill="{t["panel"]}" stroke="{t["border"]}"'
+def about():
+    css = f""".sum {{ font-size: 15px; fill: {T["text"]}; }}
+    .b {{ font-weight: 700; fill: {T["title"]}; }}
+    .label {{ font-size: 11px; font-weight: 700; fill: {T["accent"]}; letter-spacing: 1.5px; }}
+    .name {{ font-size: 15px; font-weight: 700; fill: {T["title"]}; letter-spacing: .4px; }}
+    .meta {{ font-size: 13px; fill: {T["muted"]}; }}
+    .item {{ font-size: 14px; fill: {T["text"]}; }}"""
+    panel = f'rx="10" {fill("panel")} {stroke("border")}'
     focus = ["Reliable, maintainable backend services and clean API design",
              "Service integrations, authentication and authorization",
              "Database design, data modeling and query performance",
@@ -89,10 +111,10 @@ def about(t):
     ]
     for i, item in enumerate(focus):
         y = 194 + i * 32
-        body += [f'<circle cx="403" cy="{y - 5}" r="3.5" fill="{t["accent"]}"/>',
+        body += [f'<circle cx="403" cy="{y - 5}" r="3.5" fill="{T["accent"]}"/>',
                  f'<text class="item" x="416" y="{y}">{escape(item)}</text>']
     body.append('</g>')
-    return svg(900, 392, "About", css, body, t)
+    return svg(900, 392, "About", css, body)
 
 
 # ---------------------------------------------------------------- skills
@@ -115,14 +137,14 @@ SKILLS = [
 ]
 
 
-def skills(t):
+def skills():
     W, PAD, VAL_X, LH, ROW_PAD, SEP = 900, 36, 250, 22, 14, " · "
     VAL_W = W - PAD - VAL_X
     css = f"""text {{ font-size: 14px; }}
-    .label {{ font-size: 12px; font-weight: 700; fill: {t["accent"]}; letter-spacing: 1.4px; }}
-    .tool {{ font-weight: 700; fill: {t["title"]}; }}
-    .con {{ fill: {t["text"]}; }}
-    .sep {{ fill: {t["sep"]}; }}"""
+    .label {{ font-size: 12px; font-weight: 700; fill: {T["accent"]}; letter-spacing: 1.4px; }}
+    .tool {{ font-weight: 700; fill: {T["title"]}; }}
+    .con {{ fill: {T["text"]}; }}
+    .sep {{ fill: {T["sep"]}; }}"""
 
     def flow(tools, concepts):
         items = [(x, "tool", 8.0) for x in tools] + [(x, "con", 7.0) for x in concepts]
@@ -148,8 +170,8 @@ def skills(t):
             body.append(f'<text x="{VAL_X}" y="{first + j * LH}">{spans}</text>')
         y += ROW_PAD * 2 + 15 + (len(lines) - 1) * LH + 6
         if i < len(SKILLS) - 1:
-            body.append(f'<line x1="{PAD}" y1="{y}" x2="{W - PAD}" y2="{y}" stroke="{t["rule"]}"/>')
-    return svg(W, y + PAD - ROW_PAD, "Skills", css, body, t)
+            body.append(f'<line x1="{PAD}" y1="{y}" x2="{W - PAD}" y2="{y}" {stroke("rule")}/>')
+    return svg(W, y + PAD - ROW_PAD, "Skills", css, body)
 
 
 # ---------------------------------------------------------------- journey
@@ -178,22 +200,22 @@ COMPANIES = [
 ]
 
 
-def journey(t):
-    NODE_X, CARD_X, CARD_R, PAD, CARD_H = 56, 96, 868, 20, 120
-    css = f""".initial {{ font-size: 18px; font-weight: 700; fill: #FFFFFF; }}
-    .company {{ font-size: 18px; font-weight: 700; fill: {t["title"]}; letter-spacing: .6px; }}
-    .cmeta {{ font-size: 13px; font-weight: 400; fill: {t["muted"]}; letter-spacing: 0; }}
-    .role {{ font-size: 16px; font-weight: 700; fill: {t["title"]}; }}
+def journey():
+    NODE_X, NODE_R, CARD_X, CARD_R, PAD, CARD_H = 56, 22, 96, 868, 20, 120
+    css = f""".initial {{ font-size: 18px; font-weight: 700; fill: {T["node_fg"]}; }}
+    .company {{ font-size: 18px; font-weight: 700; fill: {T["title"]}; letter-spacing: .6px; }}
+    .cmeta {{ font-size: 13px; font-weight: 400; fill: {T["muted"]}; letter-spacing: 0; }}
+    .role {{ font-size: 16px; font-weight: 700; fill: {T["title"]}; }}
     .tag {{ font-size: 10.5px; font-weight: 700; fill: #FFFFFF; letter-spacing: 1px; }}
-    .meta {{ font-size: 13px; fill: {t["muted"]}; }}
-    .chip {{ font-size: 12px; font-weight: 600; fill: {t["chip_fg"]}; }}
-    .desc {{ font-size: 14px; fill: {t["text"]}; }}"""
+    .meta {{ font-size: 13px; fill: {T["muted"]}; }}
+    .chip {{ font-size: 12px; font-weight: 600; fill: {T["chip_fg"]}; }}
+    .desc {{ font-size: 14px; fill: {T["text"]}; }}"""
     body, nodes, y = [], [], 36
     for i, (initial, name, meta, roles) in enumerate(COMPANIES):
-        cy = y + 22
+        cy = y + NODE_R
         nodes.append(cy)
         body += [f'<g class="fade d{i + 1}">',
-                 f'<circle cx="{NODE_X}" cy="{cy}" r="22" fill="{t["node"]}" stroke="{t["bg"]}" stroke-width="4"/>',
+                 f'<circle cx="{NODE_X}" cy="{cy}" r="{NODE_R}" fill="{T["node"]}"/>',
                  f'<text class="initial" x="{NODE_X}" y="{cy + 6.5}" text-anchor="middle">{initial}</text>',
                  f'<text class="company" x="{CARD_X}" y="{cy + 6}">{escape(name)}'
                  f'<tspan class="cmeta" dx="14">{escape(meta)}</tspan></text>']
@@ -201,13 +223,13 @@ def journey(t):
         for j, (title, dates, current, rmeta, desc) in enumerate(roles):
             left, right = CARD_X + PAD, CARD_R - PAD
             body.append(f'<rect x="{CARD_X}" y="{top}" width="{CARD_R - CARD_X}" height="{CARD_H}" rx="10" '
-                        f'fill="{t["panel"]}" stroke="{t["border"]}"/>')
+                        f'{fill("panel")} {stroke("border")}/>')
             body.append(f'<text class="role" x="{left}" y="{top + 32}">{escape(title)}</text>')
             dw = text_w(dates, 12) + 24
-            body.append(pill(right - dw, top + 16, dw, 22, t["chip_bg"], dates, "chip"))
+            body.append(pill(right - dw, top + 16, dw, 22, fill("chip_bg"), dates, "chip"))
             x = left
             if current:
-                body.append(pill(x, top + 43, 72, 19, t["tag_bg"], "CURRENT", "tag"))
+                body.append(pill(x, top + 43, 72, 19, f'fill="{T["tag_bg"]}"', "CURRENT", "tag"))
                 x += 82
             body.append(f'<text class="meta" x="{x}" y="{top + 57}">{escape(rmeta)}</text>')
             for k, line in enumerate(desc):
@@ -215,8 +237,10 @@ def journey(t):
             top += CARD_H + (12 if j < len(roles) - 1 else 0)
         body.append('</g>')
         y = top + 28
-    body.insert(0, f'<line x1="{NODE_X}" y1="{nodes[0]}" x2="{NODE_X}" y2="{nodes[-1]}" stroke="{t["rail"]}" stroke-width="3"/>')
-    return svg(900, y - 28 + 32, "Career timeline", css, body, t)
+    # timeline segments between the company circles
+    rail = [f'<line x1="{NODE_X}" y1="{a + NODE_R + 6}" x2="{NODE_X}" y2="{b - NODE_R - 6}" {stroke("rail", 3)}/>'
+            for a, b in zip(nodes, nodes[1:])]
+    return svg(900, y - 28 + 32, "Career timeline", css, rail + body)
 
 
 # ---------------------------------------------------------------- how I work
@@ -232,12 +256,12 @@ PRINCIPLES = [
 ]
 
 
-def how_i_work(t):
-    css = f""".num {{ font-size: 28px; font-weight: 700; fill: {t["accent"]}; }}
-    .title {{ font-size: 18px; font-weight: 700; fill: {t["title"]}; }}
-    .desc {{ font-size: 14px; fill: {t["text"]}; }}"""
-    body = [f'<line x1="40" y1="145" x2="860" y2="145" stroke="{t["rule"]}" stroke-width="2"/>',
-            f'<line x1="450" y1="40" x2="450" y2="250" stroke="{t["rule"]}" stroke-width="2"/>']
+def how_i_work():
+    css = f""".num {{ font-size: 28px; font-weight: 700; fill: {T["accent"]}; }}
+    .title {{ font-size: 18px; font-weight: 700; fill: {T["title"]}; }}
+    .desc {{ font-size: 14px; fill: {T["text"]}; }}"""
+    body = [f'<line x1="40" y1="145" x2="860" y2="145" {stroke("rule", 2)}/>',
+            f'<line x1="450" y1="40" x2="450" y2="250" {stroke("rule", 2)}/>']
     for i, (num, title, desc) in enumerate(PRINCIPLES):
         x, y = 40 + (i % 2) * 430, 70 + (i // 2) * 130
         body += [f'<g class="fade d{i + 1}">',
@@ -246,7 +270,7 @@ def how_i_work(t):
                  f'<text class="desc" x="{x + 56}" y="{y + 20}">{escape(desc[0])}</text>',
                  f'<text class="desc" x="{x + 56}" y="{y + 42}">{escape(desc[1])}</text>',
                  '</g>']
-    return svg(900, 280, "How I work", css, body, t)
+    return svg(900, 280, "How I work", css, body)
 
 
 CARDS = {"about": about, "skills": skills, "journey": journey, "how-i-work": how_i_work}
@@ -254,7 +278,6 @@ CARDS = {"about": about, "skills": skills, "journey": journey, "how-i-work": how
 if __name__ == "__main__":
     out_dir = Path(__file__).resolve().parent.parent / "assets"
     for name, build in CARDS.items():
-        for theme, tokens in THEMES.items():
-            path = out_dir / f"{name}-{theme}.svg"
-            path.write_text(build(tokens), encoding="utf-8")
-            print(path.name)
+        path = out_dir / f"{name}-glass.svg"
+        path.write_text(build(), encoding="utf-8")
+        print(path.name)
