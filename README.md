@@ -14,21 +14,9 @@
 
 ## About
 
-Software Engineer with hands-on experience designing, building, deploying and maintaining
-production backend systems. I work across **PHP/Laravel** and **Python/FastAPI** with
-**PostgreSQL** and **MySQL**, owning features end to end, from API design and data modeling
-to deployment, monitoring and production troubleshooting.
-
-Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
-
-**Focus areas**
-- Reliable, maintainable backend services and clean API design
-- Service integrations, authentication and authorization
-- Database design, data modeling and query performance
-- Stable releases, production environments and troubleshooting
-- AI-assisted engineering with Claude Code and OpenAI Codex
-
-🎓 **B.Sc. Computer Engineering**, University of Guilan (2020–2024)
+<p align="center">
+  <img width="100%" src="assets/about.svg" alt="About. Software Engineer with hands-on experience designing, building, deploying and maintaining production backend systems. I work across PHP/Laravel and Python/FastAPI with PostgreSQL and MySQL, owning features end to end, from API design and data modeling to deployment, monitoring and troubleshooting. Currently: Software Engineer at PAYSTAR (full-time) and Avina IT Solutions (part-time). Education: B.Sc. Computer Engineering, University of Guilan, 2020–2024. Focus areas: reliable, maintainable backend services and clean API design; service integrations, authentication and authorization; database design, data modeling and query performance; stable releases, production environments and troubleshooting; AI-assisted engineering with Claude Code and OpenAI Codex." />
+</p>
 
 ## Skills
 
