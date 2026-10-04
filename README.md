@@ -36,7 +36,7 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
   <tr>
     <td width="24%"><b>Backend</b></td>
     <td>
-      <img height="40" src="https://skillicons.dev/icons?i=php,laravel,python,fastapi" alt="PHP, Laravel, Python, FastAPI" /><br />
+      <b>PHP · Laravel · Python · FastAPI</b><br />
       RESTful APIs · API Design · Service Integration · Authentication &amp; Authorization<br />
       <b>Laravel:</b> Queues &amp; Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport
     </td>
@@ -44,38 +44,34 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
   <tr>
     <td><b>Databases &amp; Data</b></td>
     <td>
-      <img height="40" src="https://skillicons.dev/icons?i=postgres,mysql,redis" alt="PostgreSQL, MySQL, Redis" /><br />
+      <b>PostgreSQL · MySQL · Redis</b><br />
       Database Design · Data Modeling · Query Optimization
     </td>
   </tr>
   <tr>
     <td><b>Production &amp; Deployment</b></td>
     <td>
-      <img height="40" src="https://skillicons.dev/icons?i=linux,ubuntu,aws,docker,githubactions,terraform" alt="Linux, Ubuntu, AWS, Docker, GitHub Actions, Terraform" /><br />
+      <b>Linux · Ubuntu · AWS · Docker · GitHub Actions · Terraform</b><br />
       VPS · Server Configuration · Application Deployment · Production Environments · Release Management · Monitoring · Troubleshooting
     </td>
   </tr>
   <tr>
     <td><b>Testing &amp; Quality</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Cypress-22468A?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
-      <img src="https://img.shields.io/badge/Postman-C58B67?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
-      <img src="https://img.shields.io/badge/Hoppscotch-503327?style=for-the-badge&logo=hoppscotch&logoColor=white" alt="Hoppscotch" /><br />
+      <b>Cypress · Postman · Hoppscotch</b><br />
       Automated · API · Functional · Regression Testing · Bug Analysis &amp; Reporting
     </td>
   </tr>
   <tr>
     <td><b>Development Tools</b></td>
     <td>
-      <img height="40" src="https://skillicons.dev/icons?i=git,github,gitlab" alt="Git, GitHub, GitLab" /><br />
-      Composer · DirectAdmin
+      <b>Git · GitHub · GitLab · Composer · DirectAdmin</b>
     </td>
   </tr>
   <tr>
     <td><b>AI-Assisted Engineering</b></td>
     <td>
-      <img src="https://img.shields.io/badge/Claude_Code-C58B67?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
-      <img src="https://img.shields.io/badge/OpenAI_Codex-101525?style=for-the-badge" alt="OpenAI Codex" /><br />
+      <b>Claude Code · OpenAI Codex</b><br />
       AI Coding Agents · Agentic Workflows · AI-assisted Debugging, Refactoring, Code Review &amp; Documentation · Technical Analysis · Development Automation
     </td>
   </tr>
