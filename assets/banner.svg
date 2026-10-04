@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" width="1200" height="220" role="img" aria-label="Kaveh Nemati, Software Engineer, Rasht, Iran">
+  <style>
+    .back  { animation: drift 14s linear infinite reverse; }
+    .front { animation: drift 10s linear infinite; }
+    .title, .sub { animation: fade 1.2s ease-out both; }
+    .sub { animation-delay: .3s; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    @keyframes fade  { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .back, .front, .title, .sub { animation: none; }
+    }
+  </style>
+  <path class="back" fill="#22468A" d="M0 0 V184 Q150 166 300 184 T600 184 T900 184 T1200 184 T1500 184 T1800 184 T2100 184 T2400 184 V0 Z"/>
+  <path class="front" fill="#093060" d="M0 0 V166 Q150 190 300 166 T600 166 T900 166 T1200 166 T1500 166 T1800 166 T2100 166 T2400 166 V0 Z"/>
+  <text class="title" x="600" y="98" text-anchor="middle" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700">Kaveh Nemati</text>
+  <text class="sub" x="600" y="140" text-anchor="middle" fill="#DCE3F0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600">Software Engineer · Rasht, Iran</text>
+</svg>

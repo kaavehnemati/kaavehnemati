@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="presentation">
+  <style>
+    .back  { animation: drift 14s linear infinite reverse; }
+    .front { animation: drift 10s linear infinite; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    @media (prefers-reduced-motion: reduce) { .back, .front { animation: none; } }
+  </style>
+  <path class="back" fill="#22468A" d="M0 120 V30 Q150 48 300 30 T600 30 T900 30 T1200 30 T1500 30 T1800 30 T2100 30 T2400 30 V120 Z"/>
+  <path class="front" fill="#093060" d="M0 120 V48 Q150 24 300 48 T600 48 T900 48 T1200 48 T1500 48 T1800 48 T2100 48 T2400 48 V120 Z"/>
+</svg>
