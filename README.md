@@ -5,6 +5,15 @@
   Rasht, Iran
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-093060?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Laravel-093060?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Python-093060?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-093060?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-093060?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-093060?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+</p>
+
 ## PROFILE
 
 Software Engineer with hands-on experience designing, building, deploying, and maintaining production software systems. Experienced across the software development lifecycle, including backend architecture, API design, database systems, testing, deployment, production troubleshooting, and ongoing system maintenance.
@@ -17,31 +26,31 @@ Experienced with modern AI-assisted engineering workflows and coding agents such
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> PAYSTAR
 
-**Software Engineer** · Nov 2025 – Present<br />
+**Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Nov%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Nov 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /><br />
 <sub>Full-time · On-site · Rasht, Iran</sub>
 
 Designing, developing, and maintaining production software systems and backend services using PHP/Laravel and Python/FastAPI. Working with MySQL and PostgreSQL to build data-driven solutions, design RESTful APIs, and integrate internal and external services. Responsible for application deployment, server configuration, production maintenance, monitoring, and troubleshooting.
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> AVINA IT SOLUTIONS
 
-**Software Engineer** · Oct 2025 – Present<br />
+**Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Oct%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Oct 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /><br />
 <sub>Part-time · Remote · Tehran, Iran</sub>
 
 Developing and maintaining backend services across PHP/Laravel and Python/FastAPI projects, with MySQL and PostgreSQL as primary databases. Designing RESTful APIs, implementing new features and service integrations, and contributing to architectural improvements and refactoring. Responsible for deployment workflows, production environment maintenance, and release management.
 
-**Back-end Developer** · Feb 2025 – Oct 2025<br />
+**Back-end Developer** &nbsp;<img src="https://img.shields.io/badge/Feb%202025%20%E2%80%93%20Oct%202025-093060?style=flat-square" alt="Feb 2025 – Oct 2025" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
 Developed and maintained backend applications using PHP, Laravel, and MySQL, covering RESTful API development, authentication and authorization, business logic, database operations, and third-party integrations. Contributed to query optimization, debugging, refactoring, and deployment through Git-based workflows and code reviews.
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> PARDIS TECHNOLOGY PARK
 
-**Quality Assurance Engineer** · Apr 2024 – Jan 2025<br />
+**Quality Assurance Engineer** &nbsp;<img src="https://img.shields.io/badge/Apr%202024%20%E2%80%93%20Jan%202025-093060?style=flat-square" alt="Apr 2024 – Jan 2025" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
 Focused on functional, API, regression, and automated testing of web applications. Designed and maintained automated tests using Cypress, tested REST APIs, investigated defects, and documented reproducible bug reports, working closely with developers to validate fixes.
 
-**Software Engineer Intern** · Feb 2024 – Apr 2024<br />
+**Software Engineer Intern** &nbsp;<img src="https://img.shields.io/badge/Feb%202024%20%E2%80%93%20Apr%202024-093060?style=flat-square" alt="Feb 2024 – Apr 2024" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
 Worked on backend development using PHP, Laravel, and MySQL, contributing to REST API implementation, database operations, application logic, authentication, and bug fixing within collaborative, Git-based engineering workflows.
