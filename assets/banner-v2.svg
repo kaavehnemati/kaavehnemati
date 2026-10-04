@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="1200" height="250" role="img" aria-label="Kaveh Nemati, Software Engineer, Rasht, Iran. Building backend systems with Laravel and FastAPI">
+  <style>
+    .back  { animation: drift 14s linear infinite reverse; }
+    .front { animation: drift 10s linear infinite; }
+    .title, .sub, .tag { animation: fade 1.2s ease-out both; }
+    .sub { animation-delay: .3s; }
+    .tag { animation-delay: .6s; }
+    @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+    @keyframes fade  { from { opacity: 0; } to { opacity: 1; } }
+    @media (prefers-reduced-motion: reduce) {
+      .back, .front, .title, .sub, .tag { animation: none; }
+    }
+  </style>
+  <path class="back" fill="#22468A" d="M0 0 V214 Q150 196 300 214 T600 214 T900 214 T1200 214 T1500 214 T1800 214 T2100 214 T2400 214 V0 Z"/>
+  <path class="front" fill="#093060" d="M0 0 V196 Q150 220 300 196 T600 196 T900 196 T1200 196 T1500 196 T1800 196 T2100 196 T2400 196 V0 Z"/>
+  <text class="title" x="600" y="92" text-anchor="middle" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="700">Kaveh Nemati</text>
+  <text class="sub" x="600" y="128" text-anchor="middle" fill="#DCE3F0" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600">Software Engineer · Rasht, Iran</text>
+  <text class="tag" x="600" y="164" text-anchor="middle" fill="#E2B394" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600">Building backend systems with Laravel &amp; FastAPI</text>
+</svg>

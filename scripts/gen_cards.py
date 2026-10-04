@@ -1,25 +1,31 @@
 """Generate the profile README cards in one "glass navy" style.
 
-Writes assets/<card>-glass.svg for: about, skills, journey, how-i-work.
-The cards carry their own translucent navy surface, so the same image reads
-well on GitHub's light and dark pages; no theme switching is needed.
+Writes assets/<card>-<VERSION>.svg for: about, skills, journey, how-i-work.
+The cards carry their own opaque navy surface, so the same image looks the
+same on GitHub's light and dark pages; no theme switching is needed.
 
 Usage: python3 scripts/gen_cards.py
-After changing a card, bump the file names (e.g. -glass-v2) in the README too:
+After changing a card, bump VERSION and the file names in the README:
 raw.githubusercontent.com caches images for a while.
 """
 from pathlib import Path
 from xml.sax.saxutils import escape
 
 # A token is a hex color, or (hex, opacity) for translucent layers.
+# The surface is fully opaque so the card looks identical on light and dark pages;
+# the "glass" feel comes from the faint sheen, edge and frosted inner panels.
 GLASS = {
-    "grad_from": "#093060", "grad_to": "#22468A", "surface_opacity": 0.92,
+    "grad_from": "#093060", "grad_to": "#163A73", "surface_opacity": 1,
+    "sheen_opacity": 0.06, "edge_opacity": 0.12,
     "title": "#FFFFFF", "text": "#D5DEEA", "muted": "#A9B6D3", "sep": "#7F93B5",
     "accent": "#E2B394", "chip_fg": "#FFFFFF", "node": "#FFFFFF", "node_fg": "#093060",
     "tag_bg": "#B07152",
-    "panel": ("#FFFFFF", 0.07), "border": ("#FFFFFF", 0.14), "rule": ("#FFFFFF", 0.14),
-    "chip_bg": ("#FFFFFF", 0.14), "rail": ("#FFFFFF", 0.28),
+    "panel": ("#FFFFFF", 0.06), "border": ("#FFFFFF", 0.12), "rule": ("#FFFFFF", 0.12),
+    "chip_bg": ("#FFFFFF", 0.12), "rail": ("#FFFFFF", 0.28),
 }
+# Output suffix: change it to a never-used value whenever content changes,
+# so GitHub's image cache can't serve stale cards.
+VERSION = "solid"
 T = GLASS
 
 FONT = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
@@ -49,7 +55,7 @@ def svg(w, h, label, css, body):
             f'<stop offset="0" stop-color="{T["grad_from"]}"/><stop offset="1" stop-color="{T["grad_to"]}"/>'
             f'</linearGradient>'
             f'<linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">'
-            f'<stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/>'
+            f'<stop offset="0" stop-color="#FFFFFF" stop-opacity="{T["sheen_opacity"]}"/>'
             f'<stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/>'
             f'</linearGradient></defs>')
     return "\n".join([
@@ -58,7 +64,7 @@ def svg(w, h, label, css, body):
         f"  {defs}",
         f'  <rect width="{w}" height="{h}" rx="12" fill="url(#surface)" fill-opacity="{T["surface_opacity"]}"/>',
         f'  <rect width="{w}" height="{h}" rx="12" fill="url(#sheen)"/>',
-        f'  <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity=".18"/>',
+        f'  <rect x=".5" y=".5" width="{w - 1}" height="{h - 1}" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity="{T["edge_opacity"]}"/>',
         *("  " + ln for ln in body),
         "</svg>",
     ]) + "\n"
@@ -278,6 +284,6 @@ CARDS = {"about": about, "skills": skills, "journey": journey, "how-i-work": how
 if __name__ == "__main__":
     out_dir = Path(__file__).resolve().parent.parent / "assets"
     for name, build in CARDS.items():
-        path = out_dir / f"{name}-glass.svg"
+        path = out_dir / f"{name}-{VERSION}.svg"
         path.write_text(build(), encoding="utf-8")
         print(path.name)

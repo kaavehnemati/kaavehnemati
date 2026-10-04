@@ -12,17 +12,17 @@
     @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
   </style>
-  <defs><linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#093060"/><stop offset="1" stop-color="#22468A"/></linearGradient><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
-  <rect width="900" height="392" rx="12" fill="url(#surface)" fill-opacity="0.92"/>
+  <defs><linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#093060"/><stop offset="1" stop-color="#163A73"/></linearGradient><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.06"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
+  <rect width="900" height="392" rx="12" fill="url(#surface)" fill-opacity="1"/>
   <rect width="900" height="392" rx="12" fill="url(#sheen)"/>
-  <rect x=".5" y=".5" width="899" height="391" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <rect x=".5" y=".5" width="899" height="391" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.12"/>
   <g class="fade">
   <text class="sum" x="36" y="62">Software Engineer with hands-on experience designing, building, deploying and maintaining production</text>
   <text class="sum" x="36" y="86">backend systems. I work across <tspan class="b">PHP/Laravel</tspan> and <tspan class="b">Python/FastAPI</tspan> with <tspan class="b">PostgreSQL</tspan> and <tspan class="b">MySQL</tspan>, owning</text>
   <text class="sum" x="36" y="110">features end to end, from API design and data modeling to deployment, monitoring and troubleshooting.</text>
   </g>
   <g class="fade d2">
-  <rect x="36" y="138" width="330" height="218" rx="10" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <rect x="36" y="138" width="330" height="218" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="56" y="166">CURRENTLY</text>
   <text class="name" x="56" y="192">PAYSTAR</text>
   <text class="meta" x="56" y="211">Software Engineer · Full-time</text>
@@ -33,7 +33,7 @@
   <text class="meta" x="56" y="335">University of Guilan · 2020–2024</text>
   </g>
   <g class="fade d3">
-  <rect x="378" y="138" width="486" height="218" rx="10" fill="#FFFFFF" fill-opacity="0.07" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <rect x="378" y="138" width="486" height="218" rx="10" fill="#FFFFFF" fill-opacity="0.06" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="398" y="166">FOCUS AREAS</text>
   <circle cx="403" cy="189" r="3.5" fill="#E2B394"/>
   <text class="item" x="416" y="194">Reliable, maintainable backend services and clean API design</text>

@@ -11,37 +11,37 @@
     @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
   </style>
-  <defs><linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#093060"/><stop offset="1" stop-color="#22468A"/></linearGradient><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".12"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
-  <rect width="900" height="604" rx="12" fill="url(#surface)" fill-opacity="0.92"/>
+  <defs><linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#093060"/><stop offset="1" stop-color="#163A73"/></linearGradient><linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.06"/><stop offset=".45" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient></defs>
+  <rect width="900" height="604" rx="12" fill="url(#surface)" fill-opacity="1"/>
   <rect width="900" height="604" rx="12" fill="url(#sheen)"/>
-  <rect x=".5" y=".5" width="899" height="603" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity=".18"/>
+  <rect x=".5" y=".5" width="899" height="603" rx="11.5" fill="none" stroke="#FFFFFF" stroke-opacity="0.12"/>
   <text class="label" x="36" y="65">BACKEND</text>
   <text x="250" y="65"><tspan class="tool">PHP</tspan><tspan class="sep"> · </tspan><tspan class="tool">Laravel</tspan><tspan class="sep"> · </tspan><tspan class="tool">Python</tspan><tspan class="sep"> · </tspan><tspan class="tool">FastAPI</tspan><tspan class="sep"> · </tspan><tspan class="con">RESTful APIs</tspan><tspan class="sep"> · </tspan><tspan class="con">API Design</tspan><tspan class="sep"> · </tspan><tspan class="con">Service Integration</tspan></text>
   <text x="250" y="87"><tspan class="con">Authentication &amp; Authorization</tspan></text>
-  <line x1="36" y1="107" x2="864" y2="107" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="36" y1="107" x2="864" y2="107" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="36" y="136">LARAVEL</text>
   <text x="250" y="136"><tspan class="tool">Queues &amp; Jobs</tspan><tspan class="sep"> · </tspan><tspan class="tool">Middleware</tspan><tspan class="sep"> · </tspan><tspan class="tool">Validation</tspan><tspan class="sep"> · </tspan><tspan class="tool">Eloquent ORM</tspan><tspan class="sep"> · </tspan><tspan class="tool">Sanctum</tspan><tspan class="sep"> · </tspan><tspan class="tool">Passport</tspan></text>
-  <line x1="36" y1="156" x2="864" y2="156" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="36" y1="156" x2="864" y2="156" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="36" y="185">DATA</text>
   <text x="250" y="185"><tspan class="tool">PostgreSQL</tspan><tspan class="sep"> · </tspan><tspan class="tool">MySQL</tspan><tspan class="sep"> · </tspan><tspan class="tool">Redis</tspan><tspan class="sep"> · </tspan><tspan class="con">Database Design</tspan><tspan class="sep"> · </tspan><tspan class="con">Data Modeling</tspan><tspan class="sep"> · </tspan><tspan class="con">Query Optimization</tspan></text>
-  <line x1="36" y1="205" x2="864" y2="205" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="36" y1="205" x2="864" y2="205" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="36" y="234">PRODUCTION</text>
   <text x="250" y="234"><tspan class="tool">Linux</tspan><tspan class="sep"> · </tspan><tspan class="tool">Ubuntu</tspan><tspan class="sep"> · </tspan><tspan class="tool">AWS</tspan><tspan class="sep"> · </tspan><tspan class="tool">Docker</tspan><tspan class="sep"> · </tspan><tspan class="tool">GitHub Actions</tspan><tspan class="sep"> · </tspan><tspan class="tool">Terraform</tspan><tspan class="sep"> · </tspan><tspan class="con">VPS</tspan></text>
   <text x="250" y="256"><tspan class="con">Server Configuration</tspan><tspan class="sep"> · </tspan><tspan class="con">Application Deployment</tspan><tspan class="sep"> · </tspan><tspan class="con">Production Environments</tspan></text>
   <text x="250" y="278"><tspan class="con">Release Management</tspan><tspan class="sep"> · </tspan><tspan class="con">Monitoring</tspan><tspan class="sep"> · </tspan><tspan class="con">Troubleshooting</tspan></text>
-  <line x1="36" y1="298" x2="864" y2="298" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="36" y1="298" x2="864" y2="298" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="36" y="327">TESTING</text>
   <text x="250" y="327"><tspan class="tool">Cypress</tspan><tspan class="sep"> · </tspan><tspan class="tool">Postman</tspan><tspan class="sep"> · </tspan><tspan class="tool">Hoppscotch</tspan><tspan class="sep"> · </tspan><tspan class="con">Automated, API, Functional &amp; Regression Testing</tspan></text>
   <text x="250" y="349"><tspan class="con">Bug Analysis &amp; Reporting</tspan></text>
-  <line x1="36" y1="369" x2="864" y2="369" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="36" y1="369" x2="864" y2="369" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="36" y="398">TOOLS</text>
   <text x="250" y="398"><tspan class="tool">Git</tspan><tspan class="sep"> · </tspan><tspan class="tool">GitHub</tspan><tspan class="sep"> · </tspan><tspan class="tool">GitLab</tspan><tspan class="sep"> · </tspan><tspan class="tool">Composer</tspan><tspan class="sep"> · </tspan><tspan class="tool">DirectAdmin</tspan></text>
-  <line x1="36" y1="418" x2="864" y2="418" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="36" y1="418" x2="864" y2="418" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="36" y="447">AI-ASSISTED</text>
   <text x="250" y="447"><tspan class="tool">Claude Code</tspan><tspan class="sep"> · </tspan><tspan class="tool">OpenAI Codex</tspan><tspan class="sep"> · </tspan><tspan class="con">AI Coding Agents</tspan><tspan class="sep"> · </tspan><tspan class="con">Agentic Workflows</tspan></text>
   <text x="250" y="469"><tspan class="con">AI-assisted Debugging &amp; Refactoring</tspan><tspan class="sep"> · </tspan><tspan class="con">Code Review &amp; Documentation</tspan><tspan class="sep"> · </tspan><tspan class="con">Technical Analysis</tspan></text>
   <text x="250" y="491"><tspan class="con">Development Automation</tspan></text>
-  <line x1="36" y1="511" x2="864" y2="511" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1"/>
+  <line x1="36" y1="511" x2="864" y2="511" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="1"/>
   <text class="label" x="36" y="540">PRACTICES</text>
   <text x="250" y="540"><tspan class="con">Software Design</tspan><tspan class="sep"> · </tspan><tspan class="con">OOP</tspan><tspan class="sep"> · </tspan><tspan class="con">SOLID</tspan><tspan class="sep"> · </tspan><tspan class="con">MVC</tspan><tspan class="sep"> · </tspan><tspan class="con">Clean Code</tspan><tspan class="sep"> · </tspan><tspan class="con">Refactoring</tspan><tspan class="sep"> · </tspan><tspan class="con">Debugging</tspan></text>
   <text x="250" y="562"><tspan class="con">Code Review</tspan><tspan class="sep"> · </tspan><tspan class="con">Technical Problem Solving</tspan></text>
