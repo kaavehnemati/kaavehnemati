@@ -12,22 +12,23 @@
   <img src="https://komarev.com/ghpvc/?username=kaavehnemati&style=for-the-badge&color=1E88E5&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-## `> whoami`
+## 👋 About
 
-```yaml
-name: Kaveh Nemati
-role: Software Engineer
-based_in: Rasht, Iran
-working_at:
-  - PAYSTAR             # full-time, on-site · since Nov 2025
-  - Avina IT Solutions  # part-time, remote · since Oct 2025
-backend:   [PHP, Laravel, Python, FastAPI, REST APIs, service integration]
-data:      [PostgreSQL, MySQL, Redis, data modeling, query optimization]
-ops:       [Linux, VPS, AWS, deployments, release management, monitoring]
-ai_tools:  [Claude Code, OpenAI Codex, AI coding agents]
-education: B.Sc. Computer Engineering, University of Guilan (2020–2024)
-focus:     "reliable, maintainable systems that survive production"
-```
+Software Engineer with hands-on experience designing, building, deploying and maintaining
+production backend systems. I work across **PHP/Laravel** and **Python/FastAPI** with
+**PostgreSQL** and **MySQL**, owning features end to end, from API design and data modeling
+to deployment, monitoring and production troubleshooting.
+
+Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
+
+**Focus areas**
+- Reliable, maintainable backend services and clean API design
+- Service integrations, authentication and authorization
+- Database design, data modeling and query performance
+- Stable releases, production environments and troubleshooting
+- AI-assisted engineering with Claude Code and OpenAI Codex
+
+🎓 **B.Sc. Computer Engineering**, University of Guilan (2020–2024)
 
 ## 🧰 Tech stack
 
