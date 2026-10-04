@@ -3,7 +3,6 @@
 <p align="left">
   <a href="mailto:kaavehnemati@gmail.com">kaavehnemati@gmail.com</a><br />
   <a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/">LinkedIn</a><br />
-  <a href="https://github.com/kaavehnemati">GitHub</a><br />
   Rasht, Iran
 </p>
 
