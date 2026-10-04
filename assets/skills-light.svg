@@ -1,10 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 604" width="900" height="604" role="img" aria-label="Skills">
   <style>
-    text   { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; font-size: 14px; }
+    text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    text { font-size: 14px; }
     .label { font-size: 12px; font-weight: 700; fill: #B07152; letter-spacing: 1.4px; }
-    .tool  { font-weight: 700; fill: #093060; }
-    .con   { fill: #3D4A5C; }
-    .sep   { fill: #8A97AB; }
+    .tool { font-weight: 700; fill: #093060; }
+    .con { fill: #3D4A5C; }
+    .sep { fill: #8A97AB; }
+    .fade { animation: fade .8s ease-out both; }
+    .d2 { animation-delay: .15s; } .d3 { animation-delay: .3s; } .d4 { animation-delay: .45s; }
+    @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
   </style>
   <rect width="900" height="604" rx="12" fill="#EEF2F3"/>
   <text class="label" x="36" y="65">BACKEND</text>

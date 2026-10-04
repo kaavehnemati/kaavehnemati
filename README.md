@@ -15,25 +15,37 @@
 ## About
 
 <p align="center">
-  <img width="100%" src="assets/about.svg" alt="About. Software Engineer with hands-on experience designing, building, deploying and maintaining production backend systems. I work across PHP/Laravel and Python/FastAPI with PostgreSQL and MySQL, owning features end to end, from API design and data modeling to deployment, monitoring and troubleshooting. Currently: Software Engineer at PAYSTAR (full-time) and Avina IT Solutions (part-time). Education: B.Sc. Computer Engineering, University of Guilan, 2020–2024. Focus areas: reliable, maintainable backend services and clean API design; service integrations, authentication and authorization; database design, data modeling and query performance; stable releases, production environments and troubleshooting; AI-assisted engineering with Claude Code and OpenAI Codex." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark.svg" />
+    <img width="100%" src="assets/about-light.svg" alt="About. Software Engineer with hands-on experience designing, building, deploying and maintaining production backend systems. I work across PHP/Laravel and Python/FastAPI with PostgreSQL and MySQL, owning features end to end, from API design and data modeling to deployment, monitoring and troubleshooting. Currently: Software Engineer at PAYSTAR (full-time) and Avina IT Solutions (part-time). Education: B.Sc. Computer Engineering, University of Guilan, 2020–2024. Focus areas: reliable, maintainable backend services and clean API design; service integrations, authentication and authorization; database design, data modeling and query performance; stable releases, production environments and troubleshooting; AI-assisted engineering with Claude Code and OpenAI Codex." />
+  </picture>
 </p>
 
 ## Skills
 
 <p align="center">
-  <img width="100%" src="assets/skills-v2.svg" alt="Skills. Backend: PHP, Laravel, Python, FastAPI, RESTful APIs, API Design, Service Integration, Authentication &amp; Authorization. Laravel Ecosystem: Queues &amp; Jobs, Middleware, Validation, Eloquent ORM, Sanctum, Passport. Databases &amp; Data: PostgreSQL, MySQL, Redis, Database Design, Data Modeling, Query Optimization. Production &amp; Deployment: Linux, Ubuntu, AWS, Docker, GitHub Actions, Terraform, VPS, Server Configuration, Application Deployment, Production Environments, Release Management, Monitoring, Troubleshooting. Testing &amp; Quality: Cypress, Postman, Hoppscotch, Automated, API, Functional and Regression Testing, Bug Analysis &amp; Reporting. Development Tools: Git, GitHub, GitLab, Composer, DirectAdmin. AI-Assisted Engineering: Claude Code, OpenAI Codex, AI Coding Agents, Agentic Workflows, AI-assisted Debugging, Refactoring, Code Review &amp; Documentation, Technical Analysis, Development Automation. Engineering Practices: Software Design, OOP, SOLID, MVC, Clean Code, Refactoring, Debugging, Code Review, Technical Problem Solving." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-dark.svg" />
+    <img width="100%" src="assets/skills-light.svg" alt="Skills. Backend: PHP, Laravel, Python, FastAPI, RESTful APIs, API Design, Service Integration, Authentication &amp; Authorization. Laravel Ecosystem: Queues &amp; Jobs, Middleware, Validation, Eloquent ORM, Sanctum, Passport. Databases &amp; Data: PostgreSQL, MySQL, Redis, Database Design, Data Modeling, Query Optimization. Production &amp; Deployment: Linux, Ubuntu, AWS, Docker, GitHub Actions, Terraform, VPS, Server Configuration, Application Deployment, Production Environments, Release Management, Monitoring, Troubleshooting. Testing &amp; Quality: Cypress, Postman, Hoppscotch, Automated, API, Functional and Regression Testing, Bug Analysis &amp; Reporting. Development Tools: Git, GitHub, GitLab, Composer, DirectAdmin. AI-Assisted Engineering: Claude Code, OpenAI Codex, AI Coding Agents, Agentic Workflows, AI-assisted Debugging, Refactoring, Code Review &amp; Documentation, Technical Analysis, Development Automation. Engineering Practices: Software Design, OOP, SOLID, MVC, Clean Code, Refactoring, Debugging, Code Review, Technical Problem Solving." />
+  </picture>
 </p>
 
 ## Journey
 
 <p align="center">
-  <img width="100%" src="assets/journey-v4.svg" alt="Career timeline. PAYSTAR (Rasht, on-site): Software Engineer, Nov 2025 to present. Avina IT Solutions (Tehran, remote): Software Engineer, Oct 2025 to present; Back-end Developer, Feb 2025 to Oct 2025. Pardis Technology Park (Tehran, remote): Quality Assurance Engineer, Apr 2024 to Jan 2025; Software Engineer Intern, Feb 2024 to Apr 2024." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/journey-dark.svg" />
+    <img width="100%" src="assets/journey-light.svg" alt="Career timeline. PAYSTAR (Rasht, on-site): Software Engineer, Nov 2025 to present. Avina IT Solutions (Tehran, remote): Software Engineer, Oct 2025 to present; Back-end Developer, Feb 2025 to Oct 2025. Pardis Technology Park (Tehran, remote): Quality Assurance Engineer, Apr 2024 to Jan 2025; Software Engineer Intern, Feb 2024 to Apr 2024." />
+  </picture>
 </p>
 
 ## How I work
 
 <p align="center">
-  <img width="100%" src="assets/how-i-work.svg" alt="How I work. 01 Production first: I deploy, monitor and troubleshoot what I ship, and stay responsible for it after release. 02 Simple over clever: readable, well-structured code built on SOLID principles, so the next change is a safe one. 03 Data done right: careful schemas, sensible indexes and fast queries are the base of every reliable service. 04 AI as a teammate: Claude Code and Codex speed up building and debugging; I still review every change myself." />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/how-i-work-dark.svg" />
+    <img width="100%" src="assets/how-i-work-light.svg" alt="How I work. 01 Production first: I deploy, monitor and troubleshoot what I ship, and stay responsible for it after release. 02 Simple over clever: readable, well-structured code built on SOLID principles, so the next change is a safe one. 03 Data done right: careful schemas, sensible indexes and fast queries are the base of every reliable service. 04 AI as a teammate: Claude Code and Codex speed up building and debugging; I still review every change myself." />
+  </picture>
 </p>
 
 <img width="100%" src="assets/footer.svg" alt="" />

@@ -3,20 +3,20 @@
     text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
     .initial { font-size: 18px; font-weight: 700; fill: #FFFFFF; }
     .company { font-size: 18px; font-weight: 700; fill: #093060; letter-spacing: .6px; }
-    .cmeta   { font-size: 13px; font-weight: 400; fill: #5A6B85; letter-spacing: 0; }
-    .role    { font-size: 16px; font-weight: 700; fill: #093060; }
-    .tag     { font-size: 10.5px; font-weight: 700; fill: #FFFFFF; letter-spacing: 1px; }
-    .meta    { font-size: 13px; fill: #5A6B85; }
-    .chip    { font-size: 12px; font-weight: 600; fill: #093060; }
-    .desc    { font-size: 14px; fill: #3D4A5C; }
-    .co      { animation: fade .8s ease-out both; }
-    .c2 { animation-delay: .2s; } .c3 { animation-delay: .4s; }
+    .cmeta { font-size: 13px; font-weight: 400; fill: #5A6B85; letter-spacing: 0; }
+    .role { font-size: 16px; font-weight: 700; fill: #093060; }
+    .tag { font-size: 10.5px; font-weight: 700; fill: #FFFFFF; letter-spacing: 1px; }
+    .meta { font-size: 13px; fill: #5A6B85; }
+    .chip { font-size: 12px; font-weight: 600; fill: #093060; }
+    .desc { font-size: 14px; fill: #3D4A5C; }
+    .fade { animation: fade .8s ease-out both; }
+    .d2 { animation-delay: .15s; } .d3 { animation-delay: .3s; } .d4 { animation-delay: .45s; }
     @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
-    @media (prefers-reduced-motion: reduce) { .co { animation: none; } }
+    @media (prefers-reduced-motion: reduce) { .fade { animation: none; } }
   </style>
   <rect width="900" height="916" rx="12" fill="#EEF2F3"/>
   <line x1="56" y1="58" x2="56" y2="598" stroke="#22468A" stroke-width="3"/>
-  <g class="co c1">
+  <g class="fade d1">
   <circle cx="56" cy="58" r="22" fill="#093060" stroke="#EEF2F3" stroke-width="4"/>
   <text class="initial" x="56" y="64.5" text-anchor="middle">P</text>
   <text class="company" x="96" y="64">PAYSTAR<tspan class="cmeta" dx="14">Rasht, Iran · On-site</tspan></text>
@@ -28,7 +28,7 @@
   <text class="desc" x="116" y="178">Building and running production backend services: RESTful APIs, service integrations,</text>
   <text class="desc" x="116" y="198">deployment, server configuration, monitoring and production troubleshooting.</text>
   </g>
-  <g class="co c2">
+  <g class="fade d2">
   <circle cx="56" cy="262" r="22" fill="#093060" stroke="#EEF2F3" stroke-width="4"/>
   <text class="initial" x="56" y="268.5" text-anchor="middle">A</text>
   <text class="company" x="96" y="268">AVINA IT SOLUTIONS<tspan class="cmeta" dx="14">Tehran, Iran · Remote</tspan></text>
@@ -46,7 +46,7 @@
   <text class="desc" x="116" y="514">RESTful APIs, authentication and authorization, business logic and third-party integrations;</text>
   <text class="desc" x="116" y="534">query optimization, debugging and refactoring through Git-based code reviews.</text>
   </g>
-  <g class="co c3">
+  <g class="fade d3">
   <circle cx="56" cy="598" r="22" fill="#093060" stroke="#EEF2F3" stroke-width="4"/>
   <text class="initial" x="56" y="604.5" text-anchor="middle">P</text>
   <text class="company" x="96" y="604">PARDIS TECHNOLOGY PARK<tspan class="cmeta" dx="14">Tehran, Iran · Remote</tspan></text>
