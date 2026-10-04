@@ -1,86 +1,134 @@
-<img width="100%" src="assets/banner-v3.svg" alt="Kaveh Nemati — Software Engineer · Rasht, Iran · Building backend systems with Laravel &amp; FastAPI" />
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/"><img src="https://img.shields.io/badge/LinkedIn-22468A?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
-  <a href="mailto:kaavehnemati@gmail.com"><img src="https://img.shields.io/badge/Email-093060?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/kaavehnemati?tab=followers"><img src="https://img.shields.io/github/followers/kaavehnemati?style=for-the-badge&logo=github&logoColor=white&label=FOLLOWERS&labelColor=093060&color=B07152" alt="GitHub followers" /></a>
-</p>
-
-## About
-
-Backend-focused Software Engineer who designs, builds, deploys and maintains production systems. I work primarily with **PHP/Laravel** and **Python/FastAPI** on **PostgreSQL** and **MySQL**, and own features end to end: from API design and data modeling through deployment, monitoring and production support.
+<img width="100%" src="assets/cv-header.svg" alt="Kaveh Nemati — Software Engineer · Rasht, Iran · PHP/Laravel · Python/FastAPI" />
 
 <table>
 <tr>
-<td width="45%" valign="top">
+<td width="34%" valign="top">
 
-**Current roles**
-- **Software Engineer**, PAYSTAR<br /><sub>Full-time · On-site · Rasht</sub>
-- **Software Engineer**, Avina IT Solutions<br /><sub>Part-time · Remote</sub>
+## CONTACT
 
-**Education**
-- **B.Sc. Computer Engineering**, University of Guilan<br /><sub>2020 – 2024</sub>
+**Email**<br />
+[kaavehnemati@gmail.com](mailto:kaavehnemati@gmail.com)
+
+**LinkedIn**<br />
+[in/kaveh-nemati](https://www.linkedin.com/in/kaveh-nemati-60415b20b/)
+
+**GitHub**<br />
+[@kaavehnemati](https://github.com/kaavehnemati)
+
+**Location**<br />
+Rasht, Iran
+
+## EDUCATION
+
+**2020 – 2024**<br />
+**UNIVERSITY OF GUILAN**<br />
+Bachelor's in Computer Engineering
+
+## SKILLS
+
+**Software Engineering**<br />
+Software Design<br />
+Object-Oriented Programming<br />
+SOLID Principles<br />
+MVC Architecture<br />
+Clean Code & Refactoring<br />
+Debugging & Code Review<br />
+Technical Problem Solving
+
+**Backend Engineering**<br />
+PHP · Laravel<br />
+Python · FastAPI<br />
+RESTful APIs & API Design<br />
+Service Integration<br />
+Authentication & Authorization
+
+**Laravel Ecosystem**<br />
+Queues & Jobs<br />
+Middleware & Validation<br />
+Eloquent ORM<br />
+Sanctum & Passport
+
+**Databases & Data**<br />
+PostgreSQL<br />
+MySQL<br />
+Redis<br />
+Database Design<br />
+Data Modeling<br />
+Query Optimization
+
+**Cloud & Infrastructure**<br />
+AWS<br />
+Linux · Ubuntu · VPS<br />
+Docker · Terraform<br />
+GitHub Actions<br />
+Server Configuration<br />
+Application Deployment<br />
+Release Management<br />
+Monitoring & Troubleshooting
+
+**Testing & Quality**<br />
+Cypress<br />
+Postman · Hoppscotch<br />
+Automated & API Testing<br />
+Functional & Regression Testing<br />
+Bug Analysis & Reporting
+
+**Development Tools**<br />
+Git · GitHub · GitLab<br />
+Composer<br />
+DirectAdmin
+
+**AI-Assisted Engineering**<br />
+Claude Code<br />
+OpenAI Codex<br />
+AI Coding Agents<br />
+Agentic Development Workflows<br />
+Technical Analysis<br />
+Development Automation
 
 </td>
-<td width="55%" valign="top">
+<td width="66%" valign="top">
 
-**Focus areas**
-- Reliable, maintainable backend services and API design
-- Service integrations, authentication and authorization
-- Database design, data modeling and query performance
-- Release management and production operations
-- AI-assisted engineering with Claude Code and OpenAI Codex
+## PROFILE
+
+Software Engineer with hands-on experience designing, building, deploying, and maintaining production software systems. Experienced across the software development lifecycle, including backend architecture, API design, database systems, testing, deployment, production troubleshooting, and ongoing system maintenance.
+
+Comfortable working across multiple backend stacks, including **PHP/Laravel** and **Python/FastAPI**, with relational databases such as **PostgreSQL** and **MySQL**. Focused on building reliable, maintainable, and scalable software, improving existing systems, and solving technical problems in production environments.
+
+Experienced with modern AI-assisted engineering workflows and coding agents such as **Claude Code** and **OpenAI Codex** for implementation, debugging, refactoring, technical analysis, documentation, and development automation.
+
+## WORK EXPERIENCE
+
+<img src="assets/cv-dot.svg" width="14" alt="" /> &nbsp;**PAYSTAR** &nbsp;<sub>Full-time | On-site | Rasht, Iran</sub><br />
+**Software Engineer** &nbsp;·&nbsp; *Nov 2025 – Present*
+
+Designing, developing, and maintaining production software systems and backend services using PHP/Laravel and Python/FastAPI. Working with MySQL and PostgreSQL to build data-driven solutions, design RESTful APIs, and integrate internal and external services. Responsible for application deployment, server configuration, production maintenance, monitoring, and troubleshooting.
+
+<img src="assets/cv-dot.svg" width="14" alt="" /> &nbsp;**AVINA IT SOLUTIONS** &nbsp;<sub>Part-time | Remote | Tehran, Iran</sub><br />
+**Software Engineer** &nbsp;·&nbsp; *Oct 2025 – Present*
+
+Developing and maintaining backend services across PHP/Laravel and Python/FastAPI projects, with MySQL and PostgreSQL as primary databases. Designing RESTful APIs, implementing new features and service integrations, and contributing to architectural improvements and refactoring. Responsible for deployment workflows, production environment maintenance, and release management.
+
+<img src="assets/cv-dot.svg" width="14" alt="" /> &nbsp;**AVINA IT SOLUTIONS** &nbsp;<sub>Full-time | Remote | Tehran, Iran</sub><br />
+**Back-end Developer** &nbsp;·&nbsp; *Feb 2025 – Oct 2025*
+
+Developed and maintained backend applications using PHP, Laravel, and MySQL, covering RESTful API development, authentication and authorization, business logic, database operations, and third-party integrations. Contributed to query optimization, debugging, refactoring, and deployment through Git-based workflows and code reviews.
+
+<img src="assets/cv-dot.svg" width="14" alt="" /> &nbsp;**PARDIS TECHNOLOGY PARK** &nbsp;<sub>Full-time | Remote | Tehran, Iran</sub><br />
+**Quality Assurance Engineer** &nbsp;·&nbsp; *Apr 2024 – Jan 2025*
+
+Focused on functional, API, regression, and automated testing of web applications. Designed and maintained automated tests using Cypress, tested REST APIs, investigated defects, and documented reproducible bug reports, working closely with developers to validate fixes.
+
+<img src="assets/cv-dot.svg" width="14" alt="" /> &nbsp;**PARDIS TECHNOLOGY PARK** &nbsp;<sub>Full-time | Remote | Tehran, Iran</sub><br />
+**Software Engineer Intern** &nbsp;·&nbsp; *Feb 2024 – Apr 2024*
+
+Worked on backend development using PHP, Laravel, and MySQL, contributing to REST API implementation, database operations, application logic, authentication, and bug fixing within collaborative, Git-based engineering workflows.
 
 </td>
 </tr>
 </table>
 
-## Skills
-
-<table>
-<tr><td width="24%"><b>Backend</b></td><td><b>PHP · Laravel · Python · FastAPI</b> · RESTful APIs · API Design · Service Integration · Authentication &amp; Authorization</td></tr>
-<tr><td><b>Laravel ecosystem</b></td><td>Queues &amp; Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport</td></tr>
-<tr><td><b>Databases</b></td><td><b>PostgreSQL · MySQL · Redis</b> · Database Design · Data Modeling · Query Optimization</td></tr>
-<tr><td><b>Infrastructure &amp; DevOps</b></td><td><b>Linux · Ubuntu · AWS · Docker · GitHub Actions · Terraform</b> · VPS · Server Configuration · Application Deployment · Production Environment Management · Release Management · Monitoring · Production Troubleshooting</td></tr>
-<tr><td><b>Testing &amp; QA</b></td><td><b>Cypress · Postman · Hoppscotch</b> · Automated, API, Functional &amp; Regression Testing · Bug Analysis &amp; Reporting</td></tr>
-<tr><td><b>Tooling</b></td><td><b>Git · GitHub · GitLab · Composer · DirectAdmin</b></td></tr>
-<tr><td><b>AI-assisted engineering</b></td><td><b>Claude Code · OpenAI Codex</b> · AI Coding Agents · Agentic Workflows · AI-assisted Debugging, Refactoring &amp; Code Review · Documentation · Technical Analysis · Development Automation</td></tr>
-<tr><td><b>Engineering practices</b></td><td>Software Design · OOP · SOLID · MVC · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving</td></tr>
-</table>
-
-## Experience
-
-### PAYSTAR
-*Rasht, Iran · On-site*
-
-**Software Engineer** · Full-time &nbsp;<img src="https://img.shields.io/badge/Nov%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Nov 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" />
-- Design, develop and maintain production backend services and RESTful APIs in PHP/Laravel and Python/FastAPI
-- Integrate internal and external services on MySQL and PostgreSQL
-- Own deployments, server configuration, monitoring and production troubleshooting
-
-### Avina IT Solutions
-*Tehran, Iran · Remote*
-
-**Software Engineer** · Part-time &nbsp;<img src="https://img.shields.io/badge/Oct%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Oct 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" />
-- Build features and service integrations across PHP/Laravel and Python/FastAPI projects
-- Contribute to architectural improvements and codebase refactoring
-- Run deployment workflows, release management and production maintenance
-
-**Back-end Developer** · Full-time &nbsp;<img src="https://img.shields.io/badge/Feb%202025%20%E2%80%93%20Oct%202025-093060?style=flat-square" alt="Feb 2025 – Oct 2025" />
-- Developed RESTful APIs, authentication and authorization, business logic and third-party integrations with Laravel and MySQL
-- Improved performance and maintainability through query optimization, refactoring and code reviews
-
-### Pardis Technology Park
-*Tehran, Iran · Remote*
-
-**Quality Assurance Engineer** · Full-time &nbsp;<img src="https://img.shields.io/badge/Apr%202024%20%E2%80%93%20Jan%202025-093060?style=flat-square" alt="Apr 2024 – Jan 2025" />
-- Designed and maintained automated Cypress tests covering functional, API and regression scenarios
-- Investigated defects, documented reproducible bug reports and validated fixes with developers
-
-**Software Engineer Intern** · Full-time &nbsp;<img src="https://img.shields.io/badge/Feb%202024%20%E2%80%93%20Apr%202024-093060?style=flat-square" alt="Feb 2024 – Apr 2024" />
-- Implemented REST APIs, database operations, application logic and authentication with PHP, Laravel and MySQL
-
-## How I work
+## HOW I WORK
 
 <table>
 <tr>
@@ -113,4 +161,4 @@ Claude Code and Codex speed up implementation and debugging; I review every chan
 </tr>
 </table>
 
-<img width="100%" src="assets/footer.svg" alt="" />
+<img width="100%" src="assets/cv-footer.svg" alt="" />

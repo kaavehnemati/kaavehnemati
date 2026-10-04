@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 210" width="1200" height="210" role="img" aria-label="Kaveh Nemati, Software Engineer. Rasht, Iran · PHP/Laravel · Python/FastAPI">
+  <rect width="1200" height="210" rx="8" fill="#093060"/>
+  <text x="60" y="92" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="4">KAVEH NEMATI</text>
+  <rect x="62" y="110" width="120" height="4" rx="2" fill="#C58B67"/>
+  <rect x="0" y="134" width="1200" height="56" fill="#0E3B74"/>
+  <text x="60" y="168" fill="#E2B394" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="600">Rasht, Iran · PHP/Laravel · Python/FastAPI</text>
+  <text x="1140" y="175" text-anchor="end" fill="#FFFFFF" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="38" font-weight="800" font-style="italic" letter-spacing="1">SOFTWARE ENGINEER</text>
+</svg>
