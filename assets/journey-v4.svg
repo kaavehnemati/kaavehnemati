@@ -5,7 +5,6 @@
     .company { font-size: 18px; font-weight: 700; fill: #093060; letter-spacing: .6px; }
     .cmeta   { font-size: 13px; font-weight: 400; fill: #5A6B85; letter-spacing: 0; }
     .role    { font-size: 16px; font-weight: 700; fill: #093060; }
-    .date    { font-size: 12px; font-weight: 600; fill: #FFFFFF; }
     .tag     { font-size: 10.5px; font-weight: 700; fill: #FFFFFF; letter-spacing: 1px; }
     .meta    { font-size: 13px; fill: #5A6B85; }
     .chip    { font-size: 12px; font-weight: 600; fill: #093060; }
@@ -23,14 +22,9 @@
   <text class="company" x="96" y="64">PAYSTAR<tspan class="cmeta" dx="14">Rasht, Iran · On-site</tspan></text>
   <rect x="96" y="92" width="772" height="120" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
   <text class="role" x="116" y="124">Software Engineer</text>
-  <rect x="692.4" y="107" width="155.6" height="24" rx="12.0" fill="#093060"/><text class="date" x="770.2" y="123.2" text-anchor="middle">Nov 2025 – Present</text>
+  <rect x="694.4" y="108" width="153.6" height="22" rx="11.0" fill="#E3EAF5"/><text class="chip" x="771.2" y="123.2" text-anchor="middle">Nov 2025 – Present</text>
   <rect x="116.0" y="135" width="72.0" height="19" rx="9.5" fill="#B07152"/><text class="tag" x="152.0" y="148.7" text-anchor="middle">CURRENT</text>
   <text class="meta" x="198" y="149">Full-time</text>
-  <rect x="479.2" y="134" width="70.4" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="514.4" y="148.7" text-anchor="middle">Laravel</text>
-  <rect x="555.6" y="134" width="70.4" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="590.8" y="148.7" text-anchor="middle">FastAPI</text>
-  <rect x="632.0" y="134" width="92.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="678.0" y="148.7" text-anchor="middle">PostgreSQL</text>
-  <rect x="730.0" y="134" width="56.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="758.0" y="148.7" text-anchor="middle">MySQL</text>
-  <rect x="792.0" y="134" width="56.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="820.0" y="148.7" text-anchor="middle">Linux</text>
   <text class="desc" x="116" y="178">Building and running production backend services: RESTful APIs, service integrations,</text>
   <text class="desc" x="116" y="198">deployment, server configuration, monitoring and production troubleshooting.</text>
   </g>
@@ -40,23 +34,15 @@
   <text class="company" x="96" y="268">AVINA IT SOLUTIONS<tspan class="cmeta" dx="14">Tehran, Iran · Remote</tspan></text>
   <rect x="96" y="296" width="772" height="120" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
   <text class="role" x="116" y="328">Software Engineer</text>
-  <rect x="692.4" y="311" width="155.6" height="24" rx="12.0" fill="#093060"/><text class="date" x="770.2" y="327.2" text-anchor="middle">Oct 2025 – Present</text>
+  <rect x="694.4" y="312" width="153.6" height="22" rx="11.0" fill="#E3EAF5"/><text class="chip" x="771.2" y="327.2" text-anchor="middle">Oct 2025 – Present</text>
   <rect x="116.0" y="339" width="72.0" height="19" rx="9.5" fill="#B07152"/><text class="tag" x="152.0" y="352.7" text-anchor="middle">CURRENT</text>
   <text class="meta" x="198" y="353">Part-time</text>
-  <rect x="541.2" y="338" width="70.4" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="576.4" y="352.7" text-anchor="middle">Laravel</text>
-  <rect x="617.6" y="338" width="70.4" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="652.8" y="352.7" text-anchor="middle">FastAPI</text>
-  <rect x="694.0" y="338" width="56.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="722.0" y="352.7" text-anchor="middle">MySQL</text>
-  <rect x="756.0" y="338" width="92.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="802.0" y="352.7" text-anchor="middle">PostgreSQL</text>
   <text class="desc" x="116" y="382">Backend features and service integrations across PHP/Laravel and Python/FastAPI projects,</text>
   <text class="desc" x="116" y="402">plus refactoring, deployment workflows and release management.</text>
   <rect x="96" y="428" width="772" height="120" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
   <text class="role" x="116" y="460">Back-end Developer</text>
-  <rect x="685.2" y="443" width="162.8" height="24" rx="12.0" fill="#093060"/><text class="date" x="766.6" y="459.2" text-anchor="middle">Feb 2025 – Oct 2025</text>
+  <rect x="687.2" y="444" width="160.8" height="22" rx="11.0" fill="#E3EAF5"/><text class="chip" x="767.6" y="459.2" text-anchor="middle">Feb 2025 – Oct 2025</text>
   <text class="meta" x="116" y="485">Full-time · 9 mos</text>
-  <rect x="577.2" y="470" width="41.6" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="598.0" y="484.7" text-anchor="middle">PHP</text>
-  <rect x="624.8" y="470" width="70.4" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="660.0" y="484.7" text-anchor="middle">Laravel</text>
-  <rect x="701.2" y="470" width="56.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="729.2" y="484.7" text-anchor="middle">MySQL</text>
-  <rect x="763.2" y="470" width="84.8" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="805.6" y="484.7" text-anchor="middle">REST APIs</text>
   <text class="desc" x="116" y="514">RESTful APIs, authentication and authorization, business logic and third-party integrations;</text>
   <text class="desc" x="116" y="534">query optimization, debugging and refactoring through Git-based code reviews.</text>
   </g>
@@ -66,20 +52,14 @@
   <text class="company" x="96" y="604">PARDIS TECHNOLOGY PARK<tspan class="cmeta" dx="14">Tehran, Iran · Remote</tspan></text>
   <rect x="96" y="632" width="772" height="120" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
   <text class="role" x="116" y="664">Quality Assurance Engineer</text>
-  <rect x="685.2" y="647" width="162.8" height="24" rx="12.0" fill="#093060"/><text class="date" x="766.6" y="663.2" text-anchor="middle">Apr 2024 – Jan 2025</text>
+  <rect x="687.2" y="648" width="160.8" height="22" rx="11.0" fill="#E3EAF5"/><text class="chip" x="767.6" y="663.2" text-anchor="middle">Apr 2024 – Jan 2025</text>
   <text class="meta" x="116" y="689">Full-time · 10 mos</text>
-  <rect x="574.4" y="674" width="70.4" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="609.6" y="688.7" text-anchor="middle">Cypress</text>
-  <rect x="650.8" y="674" width="99.2" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="700.4" y="688.7" text-anchor="middle">API Testing</text>
-  <rect x="756.0" y="674" width="92.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="802.0" y="688.7" text-anchor="middle">Regression</text>
   <text class="desc" x="116" y="718">Functional, API, regression and automated testing of web applications with Cypress,</text>
   <text class="desc" x="116" y="738">plus reproducible bug reports and fix validation with developers.</text>
   <rect x="96" y="764" width="772" height="120" rx="10" fill="#FFFFFF" stroke="#D8E0EA"/>
   <text class="role" x="116" y="796">Software Engineer Intern</text>
-  <rect x="685.2" y="779" width="162.8" height="24" rx="12.0" fill="#093060"/><text class="date" x="766.6" y="795.2" text-anchor="middle">Feb 2024 – Apr 2024</text>
+  <rect x="687.2" y="780" width="160.8" height="22" rx="11.0" fill="#E3EAF5"/><text class="chip" x="767.6" y="795.2" text-anchor="middle">Feb 2024 – Apr 2024</text>
   <text class="meta" x="116" y="821">Full-time · 3 mos</text>
-  <rect x="668.0" y="806" width="41.6" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="688.8" y="820.7" text-anchor="middle">PHP</text>
-  <rect x="715.6" y="806" width="70.4" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="750.8" y="820.7" text-anchor="middle">Laravel</text>
-  <rect x="792.0" y="806" width="56.0" height="21" rx="10.5" fill="#E3EAF5"/><text class="chip" x="820.0" y="820.7" text-anchor="middle">MySQL</text>
   <text class="desc" x="116" y="850">Backend development with PHP, Laravel and MySQL: REST APIs, database operations,</text>
   <text class="desc" x="116" y="870">application logic, authentication and bug fixing.</text>
   </g>
