@@ -12,7 +12,7 @@
   <img src="https://komarev.com/ghpvc/?username=kaavehnemati&style=for-the-badge&color=C58B67&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-## 👋 About
+## About
 
 Software Engineer with hands-on experience designing, building, deploying and maintaining
 production backend systems. I work across **PHP/Laravel** and **Python/FastAPI** with
@@ -30,7 +30,7 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 
 🎓 **B.Sc. Computer Engineering**, University of Guilan (2020–2024)
 
-## 🧰 Tech stack
+## Tech stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=php,laravel,python,fastapi,postgres,mysql,redis&perline=7" alt="PHP, Laravel, Python, FastAPI, PostgreSQL, MySQL, Redis" />
@@ -48,7 +48,7 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
   <img src="https://img.shields.io/badge/Hoppscotch-503327?style=for-the-badge&logo=hoppscotch&logoColor=white" alt="Hoppscotch" />
 </p>
 
-## 🧠 Skills
+## Skills
 
 | Area | Skills |
 |---|---|
@@ -61,7 +61,7 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 | **Development Tools** | Git · GitHub · GitLab · Composer · Postman · Hoppscotch · DirectAdmin |
 | **AI-Assisted Engineering** | Claude Code · OpenAI Codex · AI Coding Agents · Agentic Development Workflows · AI-assisted Debugging, Refactoring, Code Review & Documentation · Technical Analysis & Development Automation |
 
-## 🛤️ Journey & featured work
+## Journey & featured work
 
 <table>
 <tr>
@@ -95,7 +95,7 @@ FastAPI + PostgreSQL pipeline that ingests, validates and tracks invoices, deplo
 </tr>
 </table>
 
-## 🔥 Activity
+## Activity
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=kaavehnemati&background=093060&ring=C58B67&fire=C58B67&stroke=22468A&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E2B394&sideLabels=E4E8F1&dates=A9B6D3&hide_border=true&border_radius=10" alt="GitHub streak" />
