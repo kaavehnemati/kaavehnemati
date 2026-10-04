@@ -1,15 +1,15 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0B3A6E,100:1E88E5&text=Kaveh%20Nemati&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Rasht,%20Iran&descAlignY=58&descSize=18" alt="Kaveh Nemati — Software Engineer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:101525,50:07265B,100:22468A&text=Kaveh%20Nemati&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Rasht,%20Iran&descAlignY=58&descSize=18" alt="Kaveh Nemati — Software Engineer" />
 
 <p align="center">
   <a href="https://github.com/kaavehnemati">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=1E88E5&center=true&vCenter=true&width=620&lines=Building+backend+systems+with+Laravel+%26+FastAPI;Running+production+services+at+PAYSTAR;PostgreSQL+%C2%B7+MySQL+%C2%B7+Redis+%C2%B7+AWS;Shipping+faster+with+Claude+Code+%26+Codex" alt="Typing intro" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=4A6FB5&center=true&vCenter=true&width=620&lines=Building+backend+systems+with+Laravel+%26+FastAPI;Running+production+services+at+PAYSTAR;PostgreSQL+%C2%B7+MySQL+%C2%B7+Redis+%C2%B7+AWS;Shipping+faster+with+Claude+Code+%26+Codex" alt="Typing intro" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
-  <a href="mailto:kaavehnemati@gmail.com"><img src="https://img.shields.io/badge/Email-0B3A6E?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=kaavehnemati&style=for-the-badge&color=1E88E5&label=PROFILE+VIEWS" alt="Profile views" />
+  <a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/"><img src="https://img.shields.io/badge/LinkedIn-22468A?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
+  <a href="mailto:kaavehnemati@gmail.com"><img src="https://img.shields.io/badge/Email-07265B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://komarev.com/ghpvc/?username=kaavehnemati&style=for-the-badge&color=C58B67&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ## 👋 About
@@ -41,11 +41,11 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/OpenAI_Codex-412991?style=for-the-badge" alt="OpenAI Codex" />
-  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
-  <img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white" alt="Composer" />
-  <img src="https://img.shields.io/badge/Hoppscotch-201E2B?style=for-the-badge&logo=hoppscotch&logoColor=white" alt="Hoppscotch" />
+  <img src="https://img.shields.io/badge/Claude_Code-C58B67?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/OpenAI_Codex-101525?style=for-the-badge" alt="OpenAI Codex" />
+  <img src="https://img.shields.io/badge/Cypress-22468A?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
+  <img src="https://img.shields.io/badge/Composer-07265B?style=for-the-badge&logo=composer&logoColor=white" alt="Composer" />
+  <img src="https://img.shields.io/badge/Hoppscotch-503327?style=for-the-badge&logo=hoppscotch&logoColor=white" alt="Hoppscotch" />
 </p>
 
 ## 🧠 Skills
@@ -86,7 +86,7 @@ Software Engineer Intern: PHP, Laravel, MySQL
 <td width="45%" valign="top">
 
 <a href="https://github.com/kaavehnemati/InvoiceFlow">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kaavehnemati&repo=InvoiceFlow&bg_color=0B3A6E&title_color=FFFFFF&text_color=DCE6F2&icon_color=1E88E5&hide_border=true&border_radius=10" alt="InvoiceFlow" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=kaavehnemati&repo=InvoiceFlow&bg_color=07265B&title_color=FFFFFF&text_color=E4E8F1&icon_color=C58B67&hide_border=true&border_radius=10" alt="InvoiceFlow" />
 </a>
 
 FastAPI + PostgreSQL pipeline that ingests, validates and tracks invoices, deployed to AWS Lightsail.
@@ -98,7 +98,7 @@ FastAPI + PostgreSQL pipeline that ingests, validates and tracks invoices, deplo
 ## 🔥 Activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=kaavehnemati&background=0B3A6E&ring=1E88E5&fire=1E88E5&stroke=1E88E5&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=DCE6F2&dates=9FB3C8&hide_border=true&border_radius=10" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=kaavehnemati&background=07265B&ring=C58B67&fire=C58B67&stroke=22468A&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E2B394&sideLabels=E4E8F1&dates=A9B6D3&hide_border=true&border_radius=10" alt="GitHub streak" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:0B3A6E,100:1E88E5" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:22468A,50:07265B,100:101525" alt="" />
