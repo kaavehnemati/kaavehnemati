@@ -57,21 +57,34 @@ Worked on backend development using PHP, Laravel, and MySQL, contributing to RES
 
 ## SKILLS
 
-**Backend Engineering** — PHP · Laravel · Python · FastAPI · RESTful APIs · API Design · Service Integration · Authentication & Authorization
+**Backend Engineering**<br />
+<kbd>PHP</kbd> <kbd>Laravel</kbd> <kbd>Python</kbd> <kbd>FastAPI</kbd><br />
+RESTful APIs · API Design · Service Integration · Authentication & Authorization
 
-**Laravel Ecosystem** — Queues & Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport
+**Laravel Ecosystem**<br />
+<kbd>Queues & Jobs</kbd> <kbd>Middleware</kbd> <kbd>Validation</kbd> <kbd>Eloquent ORM</kbd> <kbd>Sanctum</kbd> <kbd>Passport</kbd>
 
-**Databases & Data** — PostgreSQL · MySQL · Redis · Database Design · Data Modeling · Query Optimization
+**Databases & Data**<br />
+<kbd>PostgreSQL</kbd> <kbd>MySQL</kbd> <kbd>Redis</kbd><br />
+Database Design · Data Modeling · Query Optimization
 
-**Cloud & Infrastructure** — AWS · Linux · Ubuntu · VPS · Docker · Terraform · GitHub Actions · Server Configuration · Application Deployment · Release Management · Monitoring · Troubleshooting
+**Cloud & Infrastructure**<br />
+<kbd>AWS</kbd> <kbd>Linux</kbd> <kbd>Ubuntu</kbd> <kbd>VPS</kbd> <kbd>Docker</kbd> <kbd>Terraform</kbd> <kbd>GitHub Actions</kbd><br />
+Server Configuration · Application Deployment · Release Management · Monitoring · Troubleshooting
 
-**Testing & Quality** — Cypress · Postman · Hoppscotch · Automated Testing · API Testing · Functional Testing · Regression Testing · Bug Analysis & Reporting
+**Testing & Quality**<br />
+<kbd>Cypress</kbd> <kbd>Postman</kbd> <kbd>Hoppscotch</kbd><br />
+Automated, API, Functional & Regression Testing · Bug Analysis & Reporting
 
-**Development Tools** — Git · GitHub · GitLab · Composer · DirectAdmin
+**Development Tools**<br />
+<kbd>Git</kbd> <kbd>GitHub</kbd> <kbd>GitLab</kbd> <kbd>Composer</kbd> <kbd>DirectAdmin</kbd>
 
-**AI-Assisted Engineering** — Claude Code · OpenAI Codex · AI Coding Agents · Agentic Development Workflows · Technical Analysis · Development Automation
+**AI-Assisted Engineering**<br />
+<kbd>Claude Code</kbd> <kbd>OpenAI Codex</kbd><br />
+AI Coding Agents · Agentic Development Workflows · Technical Analysis · Development Automation
 
-**Software Engineering** — Software Design · Object-Oriented Programming · SOLID Principles · MVC Architecture · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving
+**Software Engineering**<br />
+Software Design · Object-Oriented Programming · SOLID Principles · MVC Architecture · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving
 
 ## EDUCATION
 
