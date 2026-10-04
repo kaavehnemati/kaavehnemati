@@ -1,7 +1,9 @@
 <img width="100%" src="assets/cv-header-m.svg" alt="Kaveh Nemati — Software Engineer" />
 
 <p align="center">
-  <a href="mailto:kaavehnemati@gmail.com">kaavehnemati@gmail.com</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/kaavehnemati">GitHub</a><br />
+  <a href="mailto:kaavehnemati@gmail.com">kaavehnemati@gmail.com</a><br />
+  <a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/">LinkedIn</a><br />
+  <a href="https://github.com/kaavehnemati">GitHub</a><br />
   Rasht, Iran
 </p>
 
