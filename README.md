@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/"><img src="https://img.shields.io/badge/LinkedIn-22468A?style=for-the-badge&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPg%3D%3D" alt="LinkedIn" /></a>
   <a href="mailto:kaavehnemati@gmail.com"><img src="https://img.shields.io/badge/Email-093060?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=kaavehnemati&style=for-the-badge&color=C58B67&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
 ## About
@@ -28,7 +27,7 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 - Stable releases, production environments and troubleshooting
 - AI-assisted engineering with Claude Code and OpenAI Codex
 
-🎓 **B.Sc. Computer Engineering**, University of Guilan (2020–2024)
+**Education:** B.Sc. Computer Engineering, University of Guilan (2020–2024)
 
 ## Skills
 
@@ -92,7 +91,7 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 ## How I work
 
 <p align="center">
-  <img width="100%" src="assets/how-i-work.svg" alt="How I work. 01 Production first: I deploy, monitor and troubleshoot what I ship, and stay responsible for it after release. 02 Simple over clever: readable, well-structured code built on SOLID principles, so the next change is a safe one. 03 Data done right: careful schemas, sensible indexes and fast queries are the base of every reliable service. 04 AI as a teammate: Claude Code and Codex speed up building and debugging; I still review every change myself." />
+  <img width="100%" src="assets/how-i-work-v2.svg" alt="How I work. 01 Production first: I deploy, monitor and troubleshoot what I ship, and stay responsible for it after release. 02 Simple over clever: readable, well-structured code built on SOLID principles, so the next change is a safe one. 03 Data done right: careful schemas, sensible indexes and fast queries are the base of every reliable service. 04 AI as a teammate: Claude Code and Codex speed up building and debugging; I still review every change myself." />
 </p>
 
-<img width="100%" src="assets/footer.svg" alt="" />
+<img width="100%" src="assets/footer-v2.svg" alt="" />
