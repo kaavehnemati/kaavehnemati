@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:093060,100:22468A&text=Kaveh%20Nemati&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Rasht,%20Iran&descAlignY=58&descSize=18" alt="Kaveh Nemati — Software Engineer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=wave&height=200&color=093060&text=Kaveh%20Nemati&fontColor=ffffff&fontSize=56&fontAlignY=36&desc=Software%20Engineer%20%C2%B7%20Rasht,%20Iran&descAlignY=58&descSize=18" alt="Kaveh Nemati — Software Engineer" />
 
 <p align="center">
   <a href="https://github.com/kaavehnemati">
@@ -101,4 +101,4 @@ FastAPI + PostgreSQL pipeline that ingests, validates and tracks invoices, deplo
   <img src="https://streak-stats.demolab.com?user=kaavehnemati&background=093060&ring=C58B67&fire=C58B67&stroke=22468A&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E2B394&sideLabels=E4E8F1&dates=A9B6D3&hide_border=true&border_radius=10" alt="GitHub streak" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:22468A,100:093060" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=wave&section=footer&height=120&color=093060" alt="" />
