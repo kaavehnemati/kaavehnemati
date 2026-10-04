@@ -30,36 +30,62 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 
 🎓 **B.Sc. Computer Engineering**, University of Guilan (2020–2024)
 
-## Tech stack
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=php,laravel,python,fastapi,postgres,mysql,redis&perline=7" alt="PHP, Laravel, Python, FastAPI, PostgreSQL, MySQL, Redis" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=linux,ubuntu,aws,docker,githubactions,terraform&perline=7" alt="Linux, Ubuntu, AWS, Docker, GitHub Actions, Terraform" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=git,github,gitlab,postman&perline=7" alt="Git, GitHub, GitLab, Postman" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-C58B67?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/OpenAI_Codex-101525?style=for-the-badge" alt="OpenAI Codex" />
-  <img src="https://img.shields.io/badge/Cypress-22468A?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
-  <img src="https://img.shields.io/badge/Composer-093060?style=for-the-badge&logo=composer&logoColor=white" alt="Composer" />
-  <img src="https://img.shields.io/badge/Hoppscotch-503327?style=for-the-badge&logo=hoppscotch&logoColor=white" alt="Hoppscotch" />
-</p>
-
 ## Skills
 
-| Area | Skills |
-|---|---|
-| **Software Engineering** | Software Design · OOP · SOLID · MVC · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving |
-| **Backend Engineering** | PHP · Laravel · Python · FastAPI · RESTful APIs · API Design · Service Integration · Authentication & Authorization |
-| **Laravel Ecosystem** | Queues & Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport |
-| **Databases & Data** | PostgreSQL · MySQL · Redis · Database Design · Data Modeling · Query Optimization · Eloquent ORM |
-| **Production & Deployment** | Linux · Ubuntu · VPS · Server Configuration · Application Deployment · Production Environment Management · Release Management · Monitoring · Production Troubleshooting |
-| **Testing & Quality** | Automated Testing · API Testing · Functional Testing · Regression Testing · Cypress · Bug Analysis & Reporting |
-| **Development Tools** | Git · GitHub · GitLab · Composer · Postman · Hoppscotch · DirectAdmin |
-| **AI-Assisted Engineering** | Claude Code · OpenAI Codex · AI Coding Agents · Agentic Development Workflows · AI-assisted Debugging, Refactoring, Code Review & Documentation · Technical Analysis & Development Automation |
+<table>
+  <tr>
+    <td width="24%"><b>Backend</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=php,laravel,python,fastapi" alt="PHP, Laravel, Python, FastAPI" /><br />
+      RESTful APIs · API Design · Service Integration · Authentication &amp; Authorization<br />
+      <b>Laravel:</b> Queues &amp; Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport
+    </td>
+  </tr>
+  <tr>
+    <td><b>Databases &amp; Data</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=postgres,mysql,redis" alt="PostgreSQL, MySQL, Redis" /><br />
+      Database Design · Data Modeling · Query Optimization
+    </td>
+  </tr>
+  <tr>
+    <td><b>Production &amp; Deployment</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=linux,ubuntu,aws,docker,githubactions,terraform" alt="Linux, Ubuntu, AWS, Docker, GitHub Actions, Terraform" /><br />
+      VPS · Server Configuration · Application Deployment · Production Environments · Release Management · Monitoring · Troubleshooting
+    </td>
+  </tr>
+  <tr>
+    <td><b>Testing &amp; Quality</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Cypress-22468A?style=for-the-badge&logo=cypress&logoColor=white" alt="Cypress" />
+      <img src="https://img.shields.io/badge/Postman-C58B67?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
+      <img src="https://img.shields.io/badge/Hoppscotch-503327?style=for-the-badge&logo=hoppscotch&logoColor=white" alt="Hoppscotch" /><br />
+      Automated · API · Functional · Regression Testing · Bug Analysis &amp; Reporting
+    </td>
+  </tr>
+  <tr>
+    <td><b>Development Tools</b></td>
+    <td>
+      <img height="40" src="https://skillicons.dev/icons?i=git,github,gitlab" alt="Git, GitHub, GitLab" /><br />
+      Composer · DirectAdmin
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI-Assisted Engineering</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Claude_Code-C58B67?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
+      <img src="https://img.shields.io/badge/OpenAI_Codex-101525?style=for-the-badge" alt="OpenAI Codex" /><br />
+      AI Coding Agents · Agentic Workflows · AI-assisted Debugging, Refactoring, Code Review &amp; Documentation · Technical Analysis · Development Automation
+    </td>
+  </tr>
+  <tr>
+    <td><b>Engineering Practices</b></td>
+    <td>
+      Software Design · OOP · SOLID · MVC · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving
+    </td>
+  </tr>
+</table>
 
 ## Journey
 
