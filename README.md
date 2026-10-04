@@ -124,35 +124,16 @@ Focused on functional, API, regression, and automated testing of web application
 
 Worked on backend development using PHP, Laravel, and MySQL, contributing to REST API implementation, database operations, application logic, authentication, and bug fixing within collaborative, Git-based engineering workflows.
 
-</td>
-</tr>
-</table>
-
 ## HOW I WORK
-
-<table>
-<tr>
-<td width="50%" valign="top">
 
 **01 · Ownership in production**<br />
 I deploy, monitor and support what I ship, and stay accountable for it after release.
 
-</td>
-<td width="50%" valign="top">
-
 **02 · Simplicity over cleverness**<br />
 Readable, well-structured code built on SOLID principles, so every change stays safe.
 
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 **03 · Data done right**<br />
 Careful schema design, sensible indexing and efficient queries are the foundation of reliable services.
-
-</td>
-<td valign="top">
 
 **04 · AI-assisted, human-reviewed**<br />
 Claude Code and Codex speed up implementation and debugging; I review every change before it ships.
