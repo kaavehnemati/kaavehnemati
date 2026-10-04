@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 715" width="900" height="715" role="img" aria-label="Career timeline">
   <style>
     text { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
-    .company { font-size: 17px; font-weight: 700; fill: #FFFFFF; letter-spacing: .6px; }
-    .date    { font-size: 14px; font-weight: 600; fill: #A9B6D3; }
-    .role    { font-size: 16px; font-weight: 600; fill: #E2B394; }
-    .meta    { font-size: 13px; font-weight: 400; fill: #A9B6D3; }
-    .desc    { font-size: 14px; fill: #DCE3F0; }
+    .company { font-size: 17px; font-weight: 700; fill: #093060; letter-spacing: .6px; }
+    .date    { font-size: 14px; font-weight: 600; fill: #5A6B85; }
+    .role    { font-size: 16px; font-weight: 600; fill: #B07152; }
+    .meta    { font-size: 13px; font-weight: 400; fill: #5A6B85; }
+    .desc    { font-size: 14px; fill: #3D4A5C; }
     .entry   { animation: fade .8s ease-out both; }
     .e2 { animation-delay: .15s; } .e3 { animation-delay: .3s; }
     .e4 { animation-delay: .45s; } .e5 { animation-delay: .6s; }
@@ -13,11 +13,11 @@
     @media (prefers-reduced-motion: reduce) { .entry { animation: none; } }
   </style>
 
-  <rect width="900" height="715" rx="12" fill="#093060"/>
+  <rect width="900" height="715" rx="12" fill="#EEF2F3"/>
   <line x1="60" y1="46" x2="60" y2="606" stroke="#22468A" stroke-width="3"/>
 
   <g class="entry e1">
-    <circle cx="60" cy="46" r="9" fill="#C58B67" stroke="#093060" stroke-width="3"/>
+    <circle cx="60" cy="46" r="9" fill="#B07152" stroke="#EEF2F3" stroke-width="3"/>
     <text class="company" x="90" y="52">PAYSTAR</text>
     <text class="date" x="868" y="52" text-anchor="end">Nov 2025 – Present</text>
     <text class="role" x="90" y="76">Software Engineer<tspan class="meta" dx="12">Full-time · On-site · Rasht, Iran</tspan></text>
@@ -27,7 +27,7 @@
   </g>
 
   <g class="entry e2">
-    <circle cx="60" cy="186" r="9" fill="#C58B67" stroke="#093060" stroke-width="3"/>
+    <circle cx="60" cy="186" r="9" fill="#B07152" stroke="#EEF2F3" stroke-width="3"/>
     <text class="company" x="90" y="192">AVINA IT SOLUTIONS</text>
     <text class="date" x="868" y="192" text-anchor="end">Oct 2025 – Present</text>
     <text class="role" x="90" y="216">Software Engineer<tspan class="meta" dx="12">Part-time · Remote · Tehran, Iran</tspan></text>
@@ -37,7 +37,7 @@
   </g>
 
   <g class="entry e3">
-    <circle cx="60" cy="326" r="8" fill="#093060" stroke="#C58B67" stroke-width="3"/>
+    <circle cx="60" cy="326" r="8" fill="#EEF2F3" stroke="#B07152" stroke-width="3"/>
     <text class="company" x="90" y="332">AVINA IT SOLUTIONS</text>
     <text class="date" x="868" y="332" text-anchor="end">Feb 2025 – Oct 2025</text>
     <text class="role" x="90" y="356">Back-end Developer<tspan class="meta" dx="12">Full-time · Remote · Tehran, Iran</tspan></text>
@@ -47,7 +47,7 @@
   </g>
 
   <g class="entry e4">
-    <circle cx="60" cy="466" r="8" fill="#093060" stroke="#C58B67" stroke-width="3"/>
+    <circle cx="60" cy="466" r="8" fill="#EEF2F3" stroke="#B07152" stroke-width="3"/>
     <text class="company" x="90" y="472">PARDIS TECHNOLOGY PARK</text>
     <text class="date" x="868" y="472" text-anchor="end">Apr 2024 – Jan 2025</text>
     <text class="role" x="90" y="496">Quality Assurance Engineer<tspan class="meta" dx="12">Full-time · Remote · Tehran, Iran</tspan></text>
@@ -57,7 +57,7 @@
   </g>
 
   <g class="entry e5">
-    <circle cx="60" cy="606" r="8" fill="#093060" stroke="#C58B67" stroke-width="3"/>
+    <circle cx="60" cy="606" r="8" fill="#EEF2F3" stroke="#B07152" stroke-width="3"/>
     <text class="company" x="90" y="612">PARDIS TECHNOLOGY PARK</text>
     <text class="date" x="868" y="612" text-anchor="end">Feb 2024 – Apr 2024</text>
     <text class="role" x="90" y="636">Software Engineer Intern<tspan class="meta" dx="12">Full-time · Remote · Tehran, Iran</tspan></text>

@@ -86,7 +86,7 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
 ## Journey
 
 <p align="center">
-  <img width="100%" src="assets/journey.svg" alt="Career timeline. PAYSTAR, Software Engineer, Nov 2025 to present. Avina IT Solutions, Software Engineer, Oct 2025 to present. Avina IT Solutions, Back-end Developer, Feb 2025 to Oct 2025. Pardis Technology Park, Quality Assurance Engineer, Apr 2024 to Jan 2025. Pardis Technology Park, Software Engineer Intern, Feb 2024 to Apr 2024." />
+  <img width="100%" src="assets/journey-v2.svg" alt="Career timeline. PAYSTAR, Software Engineer, Nov 2025 to present. Avina IT Solutions, Software Engineer, Oct 2025 to present. Avina IT Solutions, Back-end Developer, Feb 2025 to Oct 2025. Pardis Technology Park, Quality Assurance Engineer, Apr 2024 to Jan 2025. Pardis Technology Park, Software Engineer Intern, Feb 2024 to Apr 2024." />
 </p>
 
 ## How I work
