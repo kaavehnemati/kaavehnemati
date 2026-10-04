@@ -1,93 +1,9 @@
-<img width="100%" src="assets/cv-header.svg" alt="Kaveh Nemati — Software Engineer · Rasht, Iran · PHP/Laravel · Python/FastAPI" />
+<img width="100%" src="assets/cv-header-m.svg" alt="Kaveh Nemati — Software Engineer" />
 
-<table>
-<tr>
-<td width="34%" valign="top">
-
-## CONTACT
-
-<sub>EMAIL</sub><br />
-[kaavehnemati@gmail.com](mailto:kaavehnemati@gmail.com)
-
-<sub>LINKEDIN</sub><br />
-[in/kaveh-nemati](https://www.linkedin.com/in/kaveh-nemati-60415b20b/)
-
-<sub>GITHUB</sub><br />
-[@kaavehnemati](https://github.com/kaavehnemati)
-
-<sub>LOCATION</sub><br />
-Rasht, Iran
-
-## EDUCATION
-
-**B.Sc. Computer Engineering**<br />
-*University of Guilan*<br />
-<sub>2020 – 2024</sub>
-
-## SKILLS
-
-**Software Engineering**<br />
-Software Design<br />
-Object-Oriented Programming<br />
-SOLID Principles<br />
-MVC Architecture<br />
-Clean Code · Refactoring<br />
-Debugging · Code Review<br />
-Technical Problem Solving
-
-**Backend Engineering**<br />
-PHP · Laravel<br />
-Python · FastAPI<br />
-RESTful APIs · API Design<br />
-Service Integration<br />
-Authentication & Authorization
-
-**Laravel Ecosystem**<br />
-Queues & Jobs<br />
-Middleware · Validation<br />
-Eloquent ORM<br />
-Sanctum · Passport
-
-**Databases & Data**<br />
-PostgreSQL<br />
-MySQL<br />
-Redis<br />
-Database Design<br />
-Data Modeling<br />
-Query Optimization
-
-**Cloud & Infrastructure**<br />
-AWS<br />
-Linux · Ubuntu · VPS<br />
-Docker · Terraform<br />
-GitHub Actions<br />
-Server Configuration<br />
-Application Deployment<br />
-Release Management<br />
-Monitoring · Troubleshooting
-
-**Testing & Quality**<br />
-Cypress<br />
-Postman · Hoppscotch<br />
-Automated · API Testing<br />
-Functional · Regression Testing<br />
-Bug Analysis & Reporting
-
-**Development Tools**<br />
-Git · GitHub · GitLab<br />
-Composer<br />
-DirectAdmin
-
-**AI-Assisted Engineering**<br />
-Claude Code<br />
-OpenAI Codex<br />
-AI Coding Agents<br />
-Agentic Development Workflows<br />
-Technical Analysis<br />
-Development Automation
-
-</td>
-<td width="66%" valign="top">
+<p align="center">
+  <a href="mailto:kaavehnemati@gmail.com">kaavehnemati@gmail.com</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/kaveh-nemati-60415b20b/">LinkedIn</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/kaavehnemati">GitHub</a><br />
+  Rasht, Iran
+</p>
 
 ## PROFILE
 
@@ -130,6 +46,30 @@ Focused on functional, API, regression, and automated testing of web application
 
 Worked on backend development using PHP, Laravel, and MySQL, contributing to REST API implementation, database operations, application logic, authentication, and bug fixing within collaborative, Git-based engineering workflows.
 
+## SKILLS
+
+**Backend Engineering** — PHP · Laravel · Python · FastAPI · RESTful APIs · API Design · Service Integration · Authentication & Authorization
+
+**Laravel Ecosystem** — Queues & Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport
+
+**Databases & Data** — PostgreSQL · MySQL · Redis · Database Design · Data Modeling · Query Optimization
+
+**Cloud & Infrastructure** — AWS · Linux · Ubuntu · VPS · Docker · Terraform · GitHub Actions · Server Configuration · Application Deployment · Release Management · Monitoring · Troubleshooting
+
+**Testing & Quality** — Cypress · Postman · Hoppscotch · Automated Testing · API Testing · Functional Testing · Regression Testing · Bug Analysis & Reporting
+
+**Development Tools** — Git · GitHub · GitLab · Composer · DirectAdmin
+
+**AI-Assisted Engineering** — Claude Code · OpenAI Codex · AI Coding Agents · Agentic Development Workflows · Technical Analysis · Development Automation
+
+**Software Engineering** — Software Design · Object-Oriented Programming · SOLID Principles · MVC Architecture · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving
+
+## EDUCATION
+
+**B.Sc. Computer Engineering**<br />
+*University of Guilan*<br />
+<sub>2020 – 2024</sub>
+
 ## HOW I WORK
 
 #### 01 · Ownership in production
@@ -143,9 +83,5 @@ Careful schema design, sensible indexing and efficient queries are the foundatio
 
 #### 04 · AI-assisted, human-reviewed
 Claude Code and Codex speed up implementation and debugging; I review every change before it ships.
-
-</td>
-</tr>
-</table>
 
 <img width="100%" src="assets/cv-footer.svg" alt="" />
