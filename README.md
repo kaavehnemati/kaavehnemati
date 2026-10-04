@@ -8,26 +8,103 @@
 
 ## About
 
-<p align="center">
-  <img width="100%" src="assets/about-clear.svg" alt="About. Software Engineer with hands-on experience designing, building, deploying and maintaining production backend systems. I work across PHP/Laravel and Python/FastAPI with PostgreSQL and MySQL, owning features end to end, from API design and data modeling to deployment, monitoring and troubleshooting. Currently: Software Engineer at PAYSTAR (full-time) and Avina IT Solutions (part-time). Education: B.Sc. Computer Engineering, University of Guilan, 2020–2024. Focus areas: reliable, maintainable backend services and clean API design; service integrations, authentication and authorization; database design, data modeling and query performance; stable releases, production environments and troubleshooting; AI-assisted engineering with Claude Code and OpenAI Codex." />
-</p>
+Software Engineer with hands-on experience designing, building, deploying and maintaining production backend systems. I work across **PHP/Laravel** and **Python/FastAPI** with **PostgreSQL** and **MySQL**, owning features end to end, from API design and data modeling to deployment, monitoring and troubleshooting.
+
+<table>
+<tr>
+<td width="45%" valign="top">
+
+**Currently**
+- **PAYSTAR**: Software Engineer · Full-time
+- **Avina IT Solutions**: Software Engineer · Part-time
+
+**Education**
+- B.Sc. Computer Engineering, University of Guilan · 2020–2024
+
+</td>
+<td width="55%" valign="top">
+
+**Focus areas**
+- Reliable, maintainable backend services and clean API design
+- Service integrations, authentication and authorization
+- Database design, data modeling and query performance
+- Stable releases, production environments and troubleshooting
+- AI-assisted engineering with Claude Code and OpenAI Codex
+
+</td>
+</tr>
+</table>
 
 ## Skills
 
-<p align="center">
-  <img width="100%" src="assets/skills-clear.svg" alt="Skills. Backend: PHP, Laravel, Python, FastAPI, RESTful APIs, API Design, Service Integration, Authentication &amp; Authorization. Laravel Ecosystem: Queues &amp; Jobs, Middleware, Validation, Eloquent ORM, Sanctum, Passport. Databases &amp; Data: PostgreSQL, MySQL, Redis, Database Design, Data Modeling, Query Optimization. Production &amp; Deployment: Linux, Ubuntu, AWS, Docker, GitHub Actions, Terraform, VPS, Server Configuration, Application Deployment, Production Environments, Release Management, Monitoring, Troubleshooting. Testing &amp; Quality: Cypress, Postman, Hoppscotch, Automated, API, Functional and Regression Testing, Bug Analysis &amp; Reporting. Development Tools: Git, GitHub, GitLab, Composer, DirectAdmin. AI-Assisted Engineering: Claude Code, OpenAI Codex, AI Coding Agents, Agentic Workflows, AI-assisted Debugging, Refactoring, Code Review &amp; Documentation, Technical Analysis, Development Automation. Engineering Practices: Software Design, OOP, SOLID, MVC, Clean Code, Refactoring, Debugging, Code Review, Technical Problem Solving." />
-</p>
+<table>
+<tr><td width="20%"><b>Backend</b></td><td><b>PHP · Laravel · Python · FastAPI</b> · RESTful APIs · API Design · Service Integration · Authentication &amp; Authorization</td></tr>
+<tr><td><b>Laravel</b></td><td><b>Queues &amp; Jobs · Middleware · Validation · Eloquent ORM · Sanctum · Passport</b></td></tr>
+<tr><td><b>Data</b></td><td><b>PostgreSQL · MySQL · Redis</b> · Database Design · Data Modeling · Query Optimization</td></tr>
+<tr><td><b>Production</b></td><td><b>Linux · Ubuntu · AWS · Docker · GitHub Actions · Terraform</b> · VPS · Server Configuration · Application Deployment · Production Environments · Release Management · Monitoring · Troubleshooting</td></tr>
+<tr><td><b>Testing</b></td><td><b>Cypress · Postman · Hoppscotch</b> · Automated, API, Functional &amp; Regression Testing · Bug Analysis &amp; Reporting</td></tr>
+<tr><td><b>Tools</b></td><td><b>Git · GitHub · GitLab · Composer · DirectAdmin</b></td></tr>
+<tr><td><b>AI-Assisted</b></td><td><b>Claude Code · OpenAI Codex</b> · AI Coding Agents · Agentic Workflows · AI-assisted Debugging &amp; Refactoring · Code Review &amp; Documentation · Technical Analysis · Development Automation</td></tr>
+<tr><td><b>Practices</b></td><td>Software Design · OOP · SOLID · MVC · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving</td></tr>
+</table>
 
 ## Journey
 
-<p align="center">
-  <img width="100%" src="assets/journey-clear.svg" alt="Career timeline. PAYSTAR (Rasht, on-site): Software Engineer, Nov 2025 to present. Avina IT Solutions (Tehran, remote): Software Engineer, Oct 2025 to present; Back-end Developer, Feb 2025 to Oct 2025. Pardis Technology Park (Tehran, remote): Quality Assurance Engineer, Apr 2024 to Jan 2025; Software Engineer Intern, Feb 2024 to Apr 2024." />
-</p>
+### PAYSTAR
+*Rasht, Iran · On-site*
+
+**Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Nov%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Nov 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /> &nbsp;Full-time<br />
+Building and running production backend services: RESTful APIs, service integrations, deployment, monitoring and troubleshooting.
+
+### Avina IT Solutions
+*Tehran, Iran · Remote*
+
+**Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Oct%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Oct 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /> &nbsp;Part-time<br />
+Backend features and service integrations across PHP/Laravel and Python/FastAPI projects, plus refactoring, deployments and release management.
+
+**Back-end Developer** &nbsp;<img src="https://img.shields.io/badge/Feb%202025%20%E2%80%93%20Oct%202025-093060?style=flat-square" alt="Feb 2025 – Oct 2025" /> &nbsp;Full-time · 9 mos<br />
+RESTful APIs, authentication and authorization, business logic and third-party integrations; query optimization and code reviews.
+
+### Pardis Technology Park
+*Tehran, Iran · Remote*
+
+**Quality Assurance Engineer** &nbsp;<img src="https://img.shields.io/badge/Apr%202024%20%E2%80%93%20Jan%202025-093060?style=flat-square" alt="Apr 2024 – Jan 2025" /> &nbsp;Full-time · 10 mos<br />
+Functional, API, regression and automated testing of web applications with Cypress; reproducible bug reports and fix validation.
+
+**Software Engineer Intern** &nbsp;<img src="https://img.shields.io/badge/Feb%202024%20%E2%80%93%20Apr%202024-093060?style=flat-square" alt="Feb 2024 – Apr 2024" /> &nbsp;Full-time · 3 mos<br />
+Backend development with PHP, Laravel and MySQL: REST APIs, database operations, application logic and authentication.
 
 ## How I work
 
-<p align="center">
-  <img width="100%" src="assets/how-i-work-clear.svg" alt="How I work. 01 Production first: I deploy, monitor and troubleshoot what I ship, and stay responsible for it after release. 02 Simple over clever: readable, well-structured code built on SOLID principles, so the next change is a safe one. 03 Data done right: careful schemas, sensible indexes and fast queries are the base of every reliable service. 04 AI as a teammate: Claude Code and Codex speed up building and debugging; I still review every change myself." />
-</p>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**01 · Production first**<br />
+I deploy, monitor and troubleshoot what I ship, and stay responsible for it after release.
+
+</td>
+<td width="50%" valign="top">
+
+**02 · Simple over clever**<br />
+Readable, well-structured code built on SOLID principles, so the next change is a safe one.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**03 · Data done right**<br />
+Careful schemas, sensible indexes and fast queries are the base of every reliable service.
+
+</td>
+<td valign="top">
+
+**04 · AI as a teammate**<br />
+Claude Code and Codex speed up building and debugging; I still review every change myself.
+
+</td>
+</tr>
+</table>
 
 <img width="100%" src="assets/footer.svg" alt="" />
