@@ -89,10 +89,10 @@ Currently a Software Engineer at **PAYSTAR** and **Avina IT Solutions**.
   <img width="100%" src="assets/journey.svg" alt="Career timeline. PAYSTAR, Software Engineer, Nov 2025 to present. Avina IT Solutions, Software Engineer, Oct 2025 to present. Avina IT Solutions, Back-end Developer, Feb 2025 to Oct 2025. Pardis Technology Park, Quality Assurance Engineer, Apr 2024 to Jan 2025. Pardis Technology Park, Software Engineer Intern, Feb 2024 to Apr 2024." />
 </p>
 
-## Activity
+## How I work
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=kaavehnemati&background=093060&ring=C58B67&fire=C58B67&stroke=22468A&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=E2B394&sideLabels=E4E8F1&dates=A9B6D3&hide_border=true&border_radius=10" alt="GitHub streak" />
+  <img width="100%" src="assets/principles.svg" alt="How I work. 01 Production first: I deploy, monitor and troubleshoot what I ship, and stay responsible for it after release. 02 Simple over clever: readable, well-structured code built on SOLID principles, so the next change is a safe one. 03 Data done right: careful schemas, sensible indexes and fast queries are the base of every reliable service. 04 AI as a teammate: Claude Code and Codex speed up building and debugging; I still review every change myself." />
 </p>
 
 <img width="100%" src="assets/footer.svg" alt="" />
