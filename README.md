@@ -96,18 +96,4 @@ Software Design & Architecture · Object-Oriented Programming (OOP) · SOLID Pri
 *University of Guilan*<br />
 <sub>2020 – 2024</sub>
 
-## HOW I WORK
-
-#### 01 · Ownership in production
-I deploy, monitor and support what I ship, and stay accountable for it after release.
-
-#### 02 · Simplicity over cleverness
-Readable, well-structured code built on SOLID principles, so every change stays safe.
-
-#### 03 · Data done right
-Careful schema design, sensible indexing and efficient queries are the foundation of reliable services.
-
-#### 04 · AI-assisted, human-reviewed
-Claude Code and Codex speed up implementation and debugging; I review every change before it ships.
-
 <img width="100%" src="assets/cv-footer.svg" alt="" />
