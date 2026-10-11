@@ -17,11 +17,11 @@
 
 ## PROFILE
 
-Software Engineer with hands-on experience designing, building, deploying, and maintaining production software systems. Experienced across the software development lifecycle, including backend architecture, API design, database systems, testing, deployment, production troubleshooting, and ongoing system maintenance.
+Software Engineer with **3+ years** of hands-on experience designing, developing, deploying, and maintaining production applications. Strong background in backend engineering, software architecture, and cross-functional collaboration, with the ability to communicate effectively with team members, coordinate development workflows, support project management, and contribute to quality assurance throughout the software development lifecycle.
 
-Comfortable working across multiple backend stacks, including **PHP/Laravel** and **Python/FastAPI**, with relational databases such as **PostgreSQL** and **MySQL**. Focused on building reliable, maintainable, and scalable software, improving existing systems, and solving technical problems in production environments.
+Experienced in **Python/FastAPI** and **PHP/Laravel**, working with **SQL and NoSQL** databases and applying architectural principles and patterns such as Domain-Driven Design (DDD), Modular Architecture, MVC, Microservices, and Inversion of Control (IoC). Focused on maintainable systems, reducing technical debt, and continuously improving software quality and development processes.
 
-Experienced with modern AI-assisted engineering workflows and coding agents such as **Claude Code** and **OpenAI Codex** for implementation, debugging, refactoring, technical analysis, documentation, and development automation.
+Experienced in AI engineering, including building applications and integrations using **LLM APIs** and leveraging AI coding agents such as **Claude Code** and **OpenAI Codex** for implementation, code review, debugging, refactoring, technical analysis, and development automation.
 
 ## WORK EXPERIENCE
 
@@ -30,48 +30,51 @@ Experienced with modern AI-assisted engineering workflows and coding agents such
 **Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Nov%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Nov 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /><br />
 <sub>Full-time · On-site · Rasht, Iran</sub>
 
-Designing, developing, and maintaining production software systems and backend services using PHP/Laravel and Python/FastAPI. Working with MySQL and PostgreSQL to build data-driven solutions, design RESTful APIs, and integrate internal and external services. Responsible for application deployment, server configuration, production maintenance, monitoring, and troubleshooting.
+Designing, developing, and maintaining production software applications and backend services using Python/FastAPI and PHP/Laravel. Contributing to software architecture, RESTful API development, authentication and authorization systems, and integrations with internal and external services. Working with SQL databases to implement business logic, improve performance, and maintain data integrity.
+
+Collaborating closely with development teams on technical planning, code reviews, refactoring, and reducing technical debt. Involved in application deployment, infrastructure configuration, production troubleshooting, and improving system reliability and maintainability. Applying AI-assisted and agentic development workflows using Claude Code and OpenAI Codex to support implementation, debugging, technical analysis, and development efficiency.
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> AVINA IT SOLUTIONS
 
 **Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Oct%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Oct 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /><br />
 <sub>Part-time · Remote · Tehran, Iran</sub>
 
-Developing and maintaining backend services across PHP/Laravel and Python/FastAPI projects, with MySQL and PostgreSQL as primary databases. Designing RESTful APIs, implementing new features and service integrations, and contributing to architectural improvements and refactoring. Responsible for deployment workflows, production environment maintenance, and release management.
+Designing, developing, and maintaining software applications using Python/FastAPI and PHP/Laravel, with responsibilities extending beyond backend implementation to software architecture, system design, code review, deployment, and production maintenance. Contributing to projects such as **Fanbazar**, involving data conversion and MongoDB integration, and **Helara**, developing LLM-powered application features using the Anthropic Claude API. Collaborating with development teams to improve code quality, reduce technical debt, and deliver scalable, maintainable software solutions.
 
 **Back-end Developer** &nbsp;<img src="https://img.shields.io/badge/Feb%202025%20%E2%80%93%20Oct%202025-093060?style=flat-square" alt="Feb 2025 – Oct 2025" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
-Developed and maintained backend applications using PHP, Laravel, and MySQL, covering RESTful API development, authentication and authorization, business logic, database operations, and third-party integrations. Contributed to query optimization, debugging, refactoring, and deployment through Git-based workflows and code reviews.
+Developed and maintained backend applications using PHP/Laravel and MySQL, focusing on RESTful API development, authentication and authorization, business logic, database operations, and third-party integrations. Contributed to query optimization, debugging, refactoring, application deployment, and server-side configuration while collaborating with the development team to deliver reliable, maintainable production features.
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> PARDIS TECHNOLOGY PARK
 
 **Quality Assurance Engineer** &nbsp;<img src="https://img.shields.io/badge/Apr%202024%20%E2%80%93%20Jan%202025-093060?style=flat-square" alt="Apr 2024 – Jan 2025" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
-Focused on functional, API, regression, and automated testing of web applications. Designed and maintained automated tests using Cypress, tested REST APIs, investigated defects, and documented reproducible bug reports, working closely with developers to validate fixes.
+Worked closely with management and development teams on a daily basis to define and improve development workflows, establish QA processes, and select tools supporting project execution and product delivery. Conducted functional and API testing, developed automated tests using Cypress, and collaborated with developers to identify, track, and resolve issues. Contributed to release coordination, product quality, and successful delivery throughout the development lifecycle.
 
 **Software Engineer Intern** &nbsp;<img src="https://img.shields.io/badge/Feb%202024%20%E2%80%93%20Apr%202024-093060?style=flat-square" alt="Feb 2024 – Apr 2024" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
-Worked on backend development using PHP, Laravel, and MySQL, contributing to REST API implementation, database operations, application logic, authentication, and bug fixing within collaborative, Git-based engineering workflows.
+Started with debugging and resolving issues in existing PHP/Laravel applications, gradually progressing to implementing backend features and contributing to RESTful API development. Gained hands-on experience with MySQL, authentication, and business logic before taking on greater responsibility in developing a Content Management System (CMS) from the ground up, contributing to its backend architecture, core functionality, and implementation.
 
 ## SKILLS
 
 **Backend Engineering**<br />
-<kbd>PHP</kbd> <kbd>Laravel</kbd> <kbd>Python</kbd> <kbd>FastAPI</kbd><br />
-RESTful APIs · API Design · Service Integration · Authentication & Authorization
+<kbd>Python</kbd> <kbd>FastAPI</kbd> <kbd>PHP</kbd> <kbd>Laravel</kbd><br />
+Authentication & Authorization · Third-Party API & LLM API Integration · API Development · Business Logic Implementation
 
 **Laravel Ecosystem**<br />
 <kbd>Queues & Jobs</kbd> <kbd>Middleware</kbd> <kbd>Validation</kbd> <kbd>Eloquent ORM</kbd> <kbd>Sanctum</kbd> <kbd>Passport</kbd>
 
 **Databases & Data**<br />
-<kbd>PostgreSQL</kbd> <kbd>MySQL</kbd> <kbd>Redis</kbd><br />
+<kbd>PostgreSQL</kbd> <kbd>MySQL</kbd> <kbd>MongoDB</kbd> <kbd>Redis</kbd><br />
 Database Design · Data Modeling · Query Optimization
 
 **Cloud & Infrastructure**<br />
-<kbd>AWS</kbd> <kbd>Linux</kbd> <kbd>Ubuntu</kbd> <kbd>VPS</kbd> <kbd>Docker</kbd> <kbd>Terraform</kbd> <kbd>GitHub Actions</kbd><br />
-Server Configuration · Application Deployment · Release Management · Monitoring · Troubleshooting
+<kbd>AWS</kbd> <kbd>EC2</kbd> <kbd>ECS</kbd> <kbd>Lambda</kbd> <kbd>API Gateway</kbd> <kbd>S3</kbd> <kbd>RDS</kbd> <kbd>IAM</kbd> <kbd>VPC</kbd> <kbd>CloudWatch</kbd><br />
+<kbd>Linux</kbd> <kbd>Ubuntu</kbd> <kbd>VPS</kbd> <kbd>Docker</kbd> <kbd>Terraform</kbd> <kbd>GitHub Actions</kbd> <kbd>GitLab CI/CD</kbd><br />
+Infrastructure as Code (IaC) · CI/CD Pipelines · Application Deployment · Server Configuration
 
 **Testing & Quality**<br />
 <kbd>Cypress</kbd> <kbd>Postman</kbd> <kbd>Hoppscotch</kbd><br />
@@ -85,7 +88,7 @@ Automated, API, Functional & Regression Testing · Bug Analysis & Reporting
 AI Coding Agents · Agentic Development Workflows · Technical Analysis · Development Automation
 
 **Software Engineering**<br />
-Software Design · Object-Oriented Programming · SOLID Principles · MVC Architecture · Clean Code · Refactoring · Debugging · Code Review · Technical Problem Solving
+Software Design & Architecture · Object-Oriented Programming (OOP) · SOLID Principles · RESTful API Design · System Integration · DDD · Modular Architecture · MVC · Microservices · IoC · Code Review · Refactoring · Technical Debt Reduction
 
 ## EDUCATION
 
