@@ -7,12 +7,12 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/PHP-093060?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-  <img src="https://img.shields.io/badge/Laravel-093060?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-  <img src="https://img.shields.io/badge/Python-093060?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-093060?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/PostgreSQL-093060?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/MySQL-093060?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="assets/badges/badge-php-093060.svg" alt="PHP" />
+  <img src="assets/badges/badge-laravel-093060.svg" alt="Laravel" />
+  <img src="assets/badges/badge-python-093060.svg" alt="Python" />
+  <img src="assets/badges/badge-fastapi-093060.svg" alt="FastAPI" />
+  <img src="assets/badges/badge-postgresql-093060.svg" alt="PostgreSQL" />
+  <img src="assets/badges/badge-mysql-093060.svg" alt="MySQL" />
 </p>
 
 ## PROFILE
@@ -27,7 +27,7 @@ Experienced in AI engineering, including building applications and integrations 
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> PAYSTAR
 
-**Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Nov%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Nov 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /><br />
+**Software Engineer** &nbsp;<img src="assets/badges/badge-nov-2025-present-093060.svg" alt="Nov 2025 – Present" /> <img src="assets/badges/badge-current-b07152.svg" alt="Current" /><br />
 <sub>Full-time · On-site · Rasht, Iran</sub>
 
 Designing, developing, and maintaining production software applications and backend services using Python/FastAPI and PHP/Laravel. Contributing to software architecture, RESTful API development, authentication and authorization systems, and integrations with internal and external services. Working with SQL databases to implement business logic, improve performance, and maintain data integrity.
@@ -36,24 +36,24 @@ Collaborating closely with development teams on technical planning, code reviews
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> AVINA IT SOLUTIONS
 
-**Software Engineer** &nbsp;<img src="https://img.shields.io/badge/Oct%202025%20%E2%80%93%20Present-093060?style=flat-square" alt="Oct 2025 – Present" /> <img src="https://img.shields.io/badge/CURRENT-B07152?style=flat-square" alt="Current" /><br />
+**Software Engineer** &nbsp;<img src="assets/badges/badge-oct-2025-present-093060.svg" alt="Oct 2025 – Present" /> <img src="assets/badges/badge-current-b07152.svg" alt="Current" /><br />
 <sub>Part-time · Remote · Tehran, Iran</sub>
 
 Designing, developing, and maintaining software applications using Python/FastAPI and PHP/Laravel, with responsibilities extending beyond backend implementation to software architecture, system design, code review, deployment, and production maintenance. Contributing to projects such as **Fanbazar**, involving data conversion and MongoDB integration, and **Helara**, developing LLM-powered application features using the Anthropic Claude API. Collaborating with development teams to improve code quality, reduce technical debt, and deliver scalable, maintainable software solutions.
 
-**Back-end Developer** &nbsp;<img src="https://img.shields.io/badge/Feb%202025%20%E2%80%93%20Oct%202025-093060?style=flat-square" alt="Feb 2025 – Oct 2025" /><br />
+**Back-end Developer** &nbsp;<img src="assets/badges/badge-feb-2025-oct-2025-093060.svg" alt="Feb 2025 – Oct 2025" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
 Developed and maintained backend applications using PHP/Laravel and MySQL, focusing on RESTful API development, authentication and authorization, business logic, database operations, and third-party integrations. Contributed to query optimization, debugging, refactoring, application deployment, and server-side configuration while collaborating with the development team to deliver reliable, maintainable production features.
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> PARDIS TECHNOLOGY PARK
 
-**Quality Assurance Engineer** &nbsp;<img src="https://img.shields.io/badge/Apr%202024%20%E2%80%93%20Jan%202025-093060?style=flat-square" alt="Apr 2024 – Jan 2025" /><br />
+**Quality Assurance Engineer** &nbsp;<img src="assets/badges/badge-apr-2024-jan-2025-093060.svg" alt="Apr 2024 – Jan 2025" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
 Worked closely with management and development teams on a daily basis to define and improve development workflows, establish QA processes, and select tools supporting project execution and product delivery. Conducted functional and API testing, developed automated tests using Cypress, and collaborated with developers to identify, track, and resolve issues. Contributed to release coordination, product quality, and successful delivery throughout the development lifecycle.
 
-**Software Engineer Intern** &nbsp;<img src="https://img.shields.io/badge/Feb%202024%20%E2%80%93%20Apr%202024-093060?style=flat-square" alt="Feb 2024 – Apr 2024" /><br />
+**Software Engineer Intern** &nbsp;<img src="assets/badges/badge-feb-2024-apr-2024-093060.svg" alt="Feb 2024 – Apr 2024" /><br />
 <sub>Full-time · Remote · Tehran, Iran</sub>
 
 Started with debugging and resolving issues in existing PHP/Laravel applications, gradually progressing to implementing backend features and contributing to RESTful API development. Gained hands-on experience with MySQL, authentication, and business logic before taking on greater responsibility in developing a Content Management System (CMS) from the ground up, contributing to its backend architecture, core functionality, and implementation.
