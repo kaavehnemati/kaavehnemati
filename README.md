@@ -36,7 +36,7 @@ Collaborating closely with development teams on technical planning, code reviews
 
 ### <img src="assets/cv-dot.svg" width="14" alt="" /> AVINA IT SOLUTIONS
 
-**Software Engineer** &nbsp;<img src="assets/badges/badge-oct-2025-present-093060.svg" alt="Oct 2025 – Present" /> <img src="assets/badges/badge-current-b07152.svg" alt="Current" /><br />
+**Software Engineer** &nbsp;<img src="assets/badges/badge-oct-2025-present-093060.svg" alt="Oct 2025 – Present" /><br />
 <sub>Part-time · Remote · Tehran, Iran</sub>
 
 Designing, developing, and maintaining software applications using Python/FastAPI and PHP/Laravel, with responsibilities extending beyond backend implementation to software architecture, system design, code review, deployment, and production maintenance. Contributing to projects such as **Fanbazar**, involving data conversion and MongoDB integration, and **Helara**, developing LLM-powered application features using the Anthropic Claude API. Collaborating with development teams to improve code quality, reduce technical debt, and deliver scalable, maintainable software solutions.
